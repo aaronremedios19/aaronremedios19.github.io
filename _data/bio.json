@@ -1,12 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Aaron Remedios",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "aaron.remedios25@gmail.com",
+    "phone": "+1 765-543-8872", 
+    "website": "https://aaronremedios19.github.io/",
+    "summary": "Electronics and Telecommunication Engineer with three year of experience designing, developing, and testing 
+electromechanical systems. Skilled in robotics, automation, and PCB design, with cross-disciplinary expertise in electronics 
+and mechanical engineering. Currently pursuing an MS in Robotics at Purdue University; earned a B.Tech from Mumbai 
+University with an 8.6 CGPA.  I expect to graduate in Spring, 2026.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -23,35 +26,34 @@
       {
         "network": "linkedin",
         "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "url": "https://www.linkedin.com/in/aaron-remedios-robotics/"
       },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
+      
       {
         "network": "instagram",
-        "username": "molly",
+        "username": "aaron",
         "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Electronics",
       "keywords": [
-        "Arduino",
+        "Esp32",
         "TI MSP430"
+        "Raspberry Pi"
+        "STM32"
+        "ARM"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Robotics",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Autonomous Systems",
       "keywords": [
       ]
     }
@@ -63,30 +65,31 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
+        "Python",
         "Javascript",
         "Assembly",
-        "Common Lisp"
+        
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "STM32 IDE",
         "Ubuntu",
+        "Aduino IDE",
         "Git/GitHub",
-        "g++",
+        "ROS2",
         "TI LaunchPad"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Purdue University ",
+      "area": "Robotics Engineer (expected Spring, 2016)",
+      "studyType": "M.S.",
+      "startDate": "2025-08-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
