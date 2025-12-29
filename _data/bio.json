@@ -4,9 +4,9 @@
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
     "email": "aaron.remedios25@gmail.com",
-    "phone": "+1 765-543-8872", 
+    "phone": "+1 765-543-8872",
     "website": "https://aaronremedios19.github.io/",
-    "summary": "Electronics and Telecommunication Engineer with three year of experience designing, developing, and testing electromechanical systems. Skilled in robotics, automation, and PCB design, with cross-disciplinary expertise in electronics and mechanical engineering. Currently pursuing an MS in Robotics at Purdue University; earned a B.Tech from Mumbai University with an 8.6 CGPA.  I expect to graduate in Spring, 2026."
+    "summary": "Electronics and Telecommunication Engineer with three years of experience designing, developing, and testing electromechanical systems. Skilled in robotics, automation, and PCB design, with cross-disciplinary expertise in electronics and mechanical engineering. Currently pursuing an MS in Robotics at Purdue University; earned a B.Tech from Mumbai University with an 8.6 CGPA. I expect to graduate in Spring, 2026.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -17,15 +17,14 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "aaronremedios19",
+        "url": "https://github.com/aaronremedios19"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
+        "username": "aaron-remedios-robotics",
         "url": "https://www.linkedin.com/in/aaron-remedios-robotics/"
       },
-      
       {
         "network": "instagram",
         "username": "aaron",
@@ -37,22 +36,20 @@
     {
       "name": "Electronics",
       "keywords": [
-        "Esp32",
-        "TI MSP430"
-        "Raspberry Pi"
-        "STM32"
+        "ESP32",
+        "TI MSP430",
+        "Raspberry Pi",
+        "STM32",
         "ARM"
       ]
     },
     {
       "name": "Robotics",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Autonomous Systems",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "skills": [
@@ -63,9 +60,8 @@
         "C",
         "C++",
         "Python",
-        "Javascript",
-        "Assembly",
-        
+        "JavaScript",
+        "Assembly"
       ]
     },
     {
@@ -74,7 +70,7 @@
       "keywords": [
         "STM32 IDE",
         "Ubuntu",
-        "Aduino IDE",
+        "Arduino IDE",
         "Git/GitHub",
         "ROS2",
         "TI LaunchPad"
@@ -83,19 +79,18 @@
   ],
   "education": [
     {
-      "institution": "Purdue University ",
-      "area": "Robotics Engineer (expected Spring, 2016)",
+      "institution": "Purdue University",
+      "area": "Robotics (expected Spring, 2026)",
       "studyType": "M.S.",
       "startDate": "2025-08-01",
       "endDate": "Present",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of ",
+      "company": "UH Manoa Board of",
       "position": "Web Developer",
       "website": "",
       "startDate": "2015-08-01",
@@ -157,7 +152,7 @@
       "title": "First place",
       "date": "2015",
       "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "summary": "My team won first place in 2015."
     }
   ],
   "references": [
