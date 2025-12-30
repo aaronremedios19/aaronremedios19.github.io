@@ -2,21 +2,45 @@
 # Provide front matter so Jekyll processes this file as SASS.
 ---
 
-// Put your custom CSS here if you want to override the defaults.
-// Here are some common customizations for colors
+// ===============================
+// User custom CSS overrides
+// ===============================
 
-// Customize the background color
+// Customize the background color (optional)
 body {
-  // background-color: #f2f2f2;;
+  // background-color: #f2f2f2;
 }
 
-// Customize the menubar color
+// Customize the menubar color (optional)
 .ui.menu {
   // background: $background-start;
 }
 
-// Customize the home page icon colors
+// Customize the home page icon colors (optional)
 .icon-color {
   // color: silver;
 }
 
+// ===============================
+// Resume layout improvements
+// ===============================
+
+// Increase padding inside resume boxes
+.ui.segment {
+  padding: 2em 2.5em !important;
+}
+
+// Improve readability of bullet points
+.ui.segment ul {
+  padding-left: 1.4em;
+}
+
+.ui.segment li {
+  margin-bottom: 0.45em;
+  line-height: 1.5;
+}
+
+// Make resume content wider on desktop
+.ui.stackable.grid.container {
+  max-width: 1150px !important;
+}
