@@ -3,44 +3,27 @@
 ---
 
 // ===============================
-// User custom CSS overrides
+// Resume layout fixes (WORKING)
 // ===============================
 
-// Customize the background color (optional)
-body {
-  // background-color: #f2f2f2;
+/* Widen the main content container (THIS is the real limiter) */
+@media (min-width: 992px) {
+  .ui.container {
+    max-width: 1250px !important;
+  }
 }
 
-// Customize the menubar color (optional)
-.ui.menu {
-  // background: $background-start;
+/* Increase padding inside resume boxes */
+.ui.container .ui.segment {
+  padding: 2.2em 3em !important;
 }
 
-// Customize the home page icon colors (optional)
-.icon-color {
-  // color: silver;
+/* Improve bullet readability */
+.ui.container .ui.segment ul {
+  padding-left: 1.5em !important;
 }
 
-// ===============================
-// Resume layout improvements
-// ===============================
-
-// Increase padding inside resume boxes
-.ui.segment {
-  padding: 2em 2.5em !important;
-}
-
-// Improve readability of bullet points
-.ui.segment ul {
-  padding-left: 1.4em;
-}
-
-.ui.segment li {
-  margin-bottom: 0.45em;
-  line-height: 1.5;
-}
-
-// Make resume content wider on desktop
-.ui.stackable.grid.container {
-  max-width: 1150px !important;
+.ui.container .ui.segment li {
+  margin-bottom: 0.5em;
+  line-height: 1.55;
 }
