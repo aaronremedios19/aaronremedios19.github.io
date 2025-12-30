@@ -1,22 +1,16 @@
-<!-- Used by theme-bio-builtin-1 -->
+<div class="sixteen wide column resume-section">
+  <h3 class="ui header">Skills</h3>
 
-{% if site.data.bio.skills %}
-<div class="row">
-  <div class="two wide column">
-    <h3 class="ui left aligned header no-bottom">Skills</h3>
-  </div>
-
-  <div class="fourteen wide column no-bottom">
-    <p class="ui no-bottom">
-    {% for entry in site.data.bio.skills %}
-      <p class="ui no-bottom">
-      <b>{{ entry.name }}:</b>
-      {% for keyword in entry.keywords %}
-        {{ keyword }}{% if forloop.last != true %}, {% endif %}
-      {% endfor %}
-      </p>
-    {% endfor %}
-
-  </div>
+  {% for s in site.data.bio.skills %}
+    <div class="resume-item">
+      <div class="resume-title" style="min-width: unset; flex: unset;">
+        {{ s.name }}:
+        <span style="font-weight: 400;">
+          {% for k in s.keywords %}
+            {{ k }}{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </span>
+      </div>
+    </div>
+  {% endfor %}
 </div>
-{% endif %}
