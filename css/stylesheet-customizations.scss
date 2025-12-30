@@ -1,29 +1,48 @@
----
-# Provide front matter so Jekyll processes this file as SASS.
----
+/* ===============================
+   Standard resume formatting
+   =============================== */
 
-// ===============================
-// Resume layout fixes (WORKING)
-// ===============================
-
-/* Widen the main content container (THIS is the real limiter) */
-@media (min-width: 992px) {
-  .ui.container {
-    max-width: 1250px !important;
-  }
+.resume-section {
+  margin-bottom: 1.8rem;
 }
 
-/* Increase padding inside resume boxes */
-.ui.container .ui.segment {
-  padding: 2.2em 3em !important;
+.resume-section h3.ui.header {
+  margin-bottom: 0.9rem;
 }
 
-/* Improve bullet readability */
-.ui.container .ui.segment ul {
-  padding-left: 1.5em !important;
+.resume-item {
+  margin-bottom: 1.2rem;
 }
 
-.ui.container .ui.segment li {
-  margin-bottom: 0.5em;
-  line-height: 1.55;
+.resume-item:last-child {
+  margin-bottom: 0;
+}
+
+.resume-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.resume-title {
+  flex: 1 1 520px;
+  min-width: 260px;
+  font-weight: 700;
+}
+
+.resume-date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  color: rgba(0,0,0,0.6);
+  text-align: right;
+}
+
+.resume-subtitle {
+  margin-top: 0.25rem;
+}
+
+.resume-bullets {
+  margin-top: 0.4rem;
 }
