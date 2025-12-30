@@ -56,9 +56,9 @@
       "company": "Avantrex Industries",
       "position": "Robotics Engineer",
       "website": "",
-      "startDate": "August 2024",
-      "endDate": "August 2025",
-      "dates": "",
+      "startDate": "",
+      "endDate": "",
+      "dates": "August 2024 - August 2025 ",
       "summary": "Designed embedded robotic systems for inspection/cleaning automation, including PCBs, control, and sensing.",
       "highlights": [
         "Built a compact pipe-inspection robot using ESP32 and a custom 4-layer PCB for <50 mm diameter pipelines.",
