@@ -1,163 +1,65 @@
-{
-  "basics": {
-    "name": "Aaron Remedios",
-    "label": "M.S. Robotics | Robotics • Embedded Systems • Photonics",
-    "picture": "/images/profile.jpg",
-    "email": "aaron.remedios25@gmail.com",
-    "phone": "+1 765-543-8872",
-    "website": "https://aaronremedios19.github.io/",
-    "summary": "Electronics and Telecommunication Engineer with three years of experience designing, developing, and testing electromechanical systems. Skilled in robotics, automation, and PCB design, with cross-disciplinary expertise in electronics and mechanical engineering. Currently pursuing an MS in Robotics at Purdue University; earned a B.Tech from Mumbai University with an 8.6 CGPA. Expected graduation: Spring 2026.",
-    "location": { "address": "", "postalCode": "", "city": "", "countryCode": "", "region": "" },
-    "profiles": [
-      { "network": "github", "username": "aaronremedios19", "url": "https://github.com/aaronremedios19" },
-      { "network": "linkedin", "username": "aaron-remedios-robotics", "url": "https://www.linkedin.com/in/aaron-remedios-robotics/" }
-    ]
-  },
+<div style="margin-top: 10px;" class="ui stackable grid container">
 
-  "education": [
-    {
-      "institution": "Purdue University",
-      "area": "M.S. Robotics",
-      "studyType": "M.S.",
-      "startDate": "2025-08-01",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "Mumbai University",
-      "area": "B.Tech Electronics and Telecommunication Engineering (Honors in Data Science)",
-      "studyType": "B.Tech",
-      "startDate": "",
-      "endDate": "",
-      "gpa": "8.6 CGPA",
-      "courses": []
-    }
-  ],
+  <div class="sixteen wide column no-bottom">
+    <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+  </div>
 
-  "work": [
-    {
-      "company": "Avantrex Industries",
-      "position": "Robotics Engineer",
-      "website": "",
-      "startDate": "Oct 2023 – Apr 2024",
-      "endDate": "",
-      "summary": "Designed embedded robotic systems for inspection/cleaning automation, including PCBs, control, and sensing.",
-      "highlights": [
-        "Built a compact pipe-inspection robot using ESP32 and a custom 4-layer PCB for <50 mm diameter pipelines.",
-        "Implemented sensor fusion (EKF) and dead-reckoning for accurate localization.",
-        "Engineered electromechanical subsystems for a sewer-cleaning robot with hydraulics controlled via Raspberry Pi 5.",
-        "Developed sonar-based mapping for pipe cleaning and obstruction detection.",
-        "Designed a high-voltage AC subsystem for an autonomous solar panel placement robot."
-      ]
-    },
-    {
-      "company": "Gears & Gears",
-      "position": "Project Lead — Chamfering Machine for Rack Gear",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "Led development of an automated chamfering system including embedded compute and HMI.",
-      "highlights": [
-        "Designed and deployed a chamfering machine that reduced gear chipping by ~85%.",
-        "Used Raspberry Pi as the computational backbone; designed mechanical components in SolidWorks/AutoCAD.",
-        "Built an HMI in React.js and implemented an algorithm to compute chamfering angle from rack dimensions."
-      ]
-    },
-    {
-      "company": "UBM Engineering",
-      "position": "Machine Maintenance Intern",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "Worked on PLC automation and industrial maintenance workflows.",
-      "highlights": [
-        "Worked with PLC automation using hydraulic motors.",
-        "Hands-on exposure to Siemens PLC concepts and industrial troubleshooting."
-      ]
-    },
-    {
-      "company": "Hook EV Cycle Converters",
-      "position": "Electronics Intern",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "Designed embedded electronics and reverse-engineered controllers for EV conversion systems.",
-      "highlights": [
-        "Designed an EV conversion kiosk with HMI, solenoid locking, NFC access, GPS, and backend-linked tracking.",
-        "Reverse-engineered a high-cost ESC to create an in-house controller (~40% cost reduction).",
-        "Integrated hardware into a PCB and implemented three custom PPM-based control modes."
-      ]
-    }
-  ],
+  <div class="eight wide left aligned column">
+    {% include bio-network-links.html %}
+  </div>
 
-  "projects": [
-    {
-      "title": "Cosmo Logistic Theme (eYRC’23–24, IIT Bombay) — Rank 1",
-      "dates": "Oct 2023 – Apr 2024",
-      "bullets": [
-        "Engineered an autonomous warehouse logistics system integrating a robotic arm and mobile robot using ROS2, MoveIt2, and Nav2.",
-        "Implemented OpenCV-based ArUco marker detection for box localization and pose estimation.",
-        "Used Nav2 for path planning/localization and controlled a UR5 robotic arm using MoveIt for pick-and-place."
-      ]
-    },
-    {
-      "title": "ISRO Robotics Challenge — Team Lead",
-      "dates": "Oct 2023 – Apr 2024",
-      "bullets": [
-        "Built a six-wheel Mars-mission rover with rocker–bogie suspension and 3D-printed TPU wheels for soft sand traction.",
-        "Designed a custom ESP32-based control PCB and implemented PID control for smooth six-wheel locomotion.",
-        "Deployed OpenCV for test-tube detection and integrated LiDAR, camera, and IMU for robust navigation.",
-        "Achieved All-India Rank 9 out of 140 teams in Stage 2."
-      ]
-    },
-    {
-      "title": "ABU ROBOCON 2023 & 2022 — Team Manager",
-      "dates": "Oct 2021 – Apr 2023",
-      "bullets": [
-        "Designed robots for Lagori tower gameplay: passing/shooting balls, rebuilding the tower, and multi-robot coordination.",
-        "Prototyped pneumatic mechanisms using solenoid valves controlled via ESP32 microcontrollers.",
-        "Integrated LiDAR for distance measurement and developed algorithms optimizing distance-to-power ratio for tower knockdown.",
-        "Developed stair-climbing robots with STM32-based controller, custom 2-layer PCB, PID control, and sensor-feedback for distance/angle estimation and projectile/ring-shooting precision."
-      ]
-    }
-  ],
+  <div class="eight wide right aligned column">
+    {% include bio-address.html %}
+  </div>
+</div>
 
-  "skills": [
-    {
-      "name": "Programming",
-      "level": "",
-      "keywords": ["Embedded C", "C++", "Python", "MATLAB", "JavaScript"]
-    },
-    {
-      "name": "Robotics",
-      "level": "",
-      "keywords": ["ROS2", "Nav2", "MoveIt2", "OpenCV", "SLAM", "Path Planning", "Sensor Fusion", "PID Control"]
-    },
-    {
-      "name": "Embedded / Hardware",
-      "level": "",
-      "keywords": ["ESP32", "STM32", "ARM", "Raspberry Pi", "PCB Design", "LiDAR", "IMU", "Cameras"]
-    },
-    {
-      "name": "Tools",
-      "level": "",
-      "keywords": ["Altium", "SolidWorks", "MATLAB/Simulink", "Linux", "Git/GitHub"]
-    }
-  ],
+<div style="margin-bottom: 20px" class="ui stackable grid container">
 
-  "achievements": [
-    "AIR 1 – IIT Bombay e-Yantra Robotics Competition",
-    "Winner – Pragati 2024 (National Business Plan Competition, SFIT)",
-    "Winner – Conception 2024 (Project Presentation Competition)",
-    "Winner – Prakalp’24 ISTE-KJS (Technical Paper Presentation)",
-    "Winner – Robo Route Rumble (Line Following Robot, LSRB Algorithm, Sep 2023)",
-    "Winner – Yantrikey SolidWorks Design Competition (Feb 2023)",
-    "CSWP – Certified SolidWorks Professional Certification",
-    "Represented St. Francis Institute of Technology at ABU Robocon 2022–23, IIT Delhi"
-  ],
+  <!-- Education + Work -->
+  {% include bio-education-1.html %}
+  {% include bio-work-1.html %}
 
-  "references": [
-    { "name": "Available upon request", "reference": "" }
-  ]
-}
+  <!-- Key Projects and Achievements -->
+  {% if site.data.bio.projects and site.data.bio.projects.size > 0 %}
+  <div class="sixteen wide column">
+    <h3 class="ui header">Key Projects and Achievements</h3>
+
+    {% for p in site.data.bio.projects %}
+      <div style="margin-bottom: 1.6em;">
+
+        <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+          <strong>{{ p.title }}</strong>
+          {% if p.dates %}
+            <span style="color: rgba(0,0,0,0.6); white-space: nowrap;">{{ p.dates }}</span>
+          {% endif %}
+        </div>
+
+        {% if p.bullets and p.bullets.size > 0 %}
+        <ul style="margin-top: 0.4em;">
+          {% for b in p.bullets %}
+            <li>{{ b }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Skills -->
+  {% include bio-skills-1.html %}
+
+  <!-- Achievements -->
+  {% if site.data.bio.achievements and site.data.bio.achievements.size > 0 %}
+  <div class="sixteen wide column">
+    <h3 class="ui header">Achievements</h3>
+    <ul style="margin-top: 0.4em;">
+      {% for a in site.data.bio.achievements %}
+        <li>{{ a }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+</div>
