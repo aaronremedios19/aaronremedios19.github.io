@@ -1,38 +1,24 @@
 {
   "basics": {
     "name": "Aaron Remedios",
-    "label": "M.S. Robotics Engineering | Embedded Systems • Robotics • Autonomous Systems",
+    "label": "M.S. Robotics | Robotics • Embedded Systems • Photonics",
     "picture": "/images/profile.jpg",
     "email": "aaron.remedios25@gmail.com",
     "phone": "+1 765-543-8872",
     "website": "https://aaronremedios19.github.io/",
-    "summary": "Robotics engineer with strong foundations in embedded systems, autonomous robots, perception, and electromechanical system design. Experienced in developing full-stack robotic systems spanning PCB design, firmware, ROS2-based autonomy, perception pipelines, and mechanical integration. Currently pursuing an M.S. in Robotics Engineering at Purdue University.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "",
-      "region": ""
-    },
+    "summary": "Electronics and Telecommunication Engineer with three years of experience designing, developing, and testing electromechanical systems. Skilled in robotics, automation, and PCB design, with cross-disciplinary expertise in electronics and mechanical engineering. Currently pursuing an MS in Robotics at Purdue University; earned a B.Tech from Mumbai University with an 8.6 CGPA. Expected graduation: Spring 2026.",
+    "location": { "address": "", "postalCode": "", "city": "", "countryCode": "", "region": "" },
     "profiles": [
-      {
-        "network": "github",
-        "username": "aaronremedios19",
-        "url": "https://github.com/aaronremedios19"
-      },
-      {
-        "network": "linkedin",
-        "username": "aaron-remedios-robotics",
-        "url": "https://www.linkedin.com/in/aaron-remedios-robotics/"
-      }
+      { "network": "github", "username": "aaronremedios19", "url": "https://github.com/aaronremedios19" },
+      { "network": "linkedin", "username": "aaron-remedios-robotics", "url": "https://www.linkedin.com/in/aaron-remedios-robotics/" }
     ]
   },
 
   "education": [
     {
       "institution": "Purdue University",
-      "area": "Robotics Engineering (Embedded Systems Focus)",
-      "studyType": "Master of Science",
+      "area": "M.S. Robotics",
+      "studyType": "M.S.",
       "startDate": "2025-08-01",
       "endDate": "Present",
       "gpa": "",
@@ -40,11 +26,11 @@
     },
     {
       "institution": "Mumbai University",
-      "area": "Electronics and Telecommunication Engineering (Honors in Data Science)",
-      "studyType": "Bachelor of Technology",
-      "startDate": "2020-08-01",
-      "endDate": "2024-05-01",
-      "gpa": "8.6 / 10",
+      "area": "B.Tech Electronics and Telecommunication Engineering (Honors in Data Science)",
+      "studyType": "B.Tech",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "8.6 CGPA",
       "courses": []
     }
   ],
@@ -54,90 +40,85 @@
       "company": "Avantrex Industries",
       "position": "Robotics Engineer",
       "website": "",
-      "startDate": "2024-08-01",
-      "endDate": "2025-08-01",
-      "summary": "Designed and deployed autonomous robotic systems for industrial inspection and cleaning applications.",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Designed embedded robotic systems for inspection/cleaning automation, including PCBs, control, and sensing.",
       "highlights": [
-        "Designed a compact pipe-inspection robot for sub-50 mm pipelines using ESP32 and a custom 4-layer PCB.",
-        "Implemented EKF-based sensor fusion and dead-reckoning for accurate localization.",
-        "Developed sonar-based mapping for sewer-cleaning robots to detect obstructions and pipe geometry.",
-        "Built a sewer-cleaning robot integrating hydraulics controlled via Raspberry Pi 5.",
-        "Designed high-voltage AC electronics for an autonomous solar panel placement robot."
+        "Built a compact pipe-inspection robot using ESP32 and a custom 4-layer PCB for <50 mm diameter pipelines.",
+        "Implemented sensor fusion (EKF) and dead-reckoning for accurate localization.",
+        "Engineered electromechanical subsystems for a sewer-cleaning robot with hydraulics controlled via Raspberry Pi 5.",
+        "Developed sonar-based mapping for pipe cleaning and obstruction detection.",
+        "Designed a high-voltage AC subsystem for an autonomous solar panel placement robot."
       ]
     },
-
-    {
-      "company": "Cosmo Logistic Theme — e-Yantra Robotics Competition (IIT Bombay)",
-      "position": "Team Lead | Rank 1 (National)",
-      "website": "",
-      "startDate": "2023-10-01",
-      "endDate": "2024-04-01",
-      "summary": "Engineered an autonomous warehouse logistics system integrating a mobile robot and robotic arm.",
-      "highlights": [
-        "Developed a complete ROS2-based autonomy stack using Nav2 for path planning and localization.",
-        "Integrated UR5 robotic arm using MoveIt2 for precise pick-and-place operations.",
-        "Implemented OpenCV-based ArUco marker detection for box localization and pose estimation.",
-        "Coordinated mobile manipulation tasks for seamless warehouse logistics automation."
-      ]
-    },
-
-    {
-      "company": "ISRO Robotics Challenge",
-      "position": "Team Lead | All-India Rank 9 (Stage 2)",
-      "website": "",
-      "startDate": "2023-10-01",
-      "endDate": "2024-04-01",
-      "summary": "Built a six-wheel Mars-mission rover for rugged terrain exploration.",
-      "highlights": [
-        "Designed a rocker–bogie suspension system with 3D-printed TPU wheels for enhanced traction on soft sand.",
-        "Developed a custom ESP32-based control PCB for six-wheel locomotion.",
-        "Implemented PID control for smooth and stable motion across uneven terrain.",
-        "Deployed OpenCV for test-tube detection and vision-based task execution.",
-        "Integrated LiDAR, camera, and IMU data for robust navigation in unstructured environments."
-      ]
-    },
-
-    {
-      "company": "ABU ROBOCON (India)",
-      "position": "Team Manager | National-Level Robotics Competition",
-      "website": "",
-      "startDate": "2021-10-01",
-      "endDate": "2023-04-01",
-      "summary": "Designed and managed development of multi-robot systems for competitive robotics challenges.",
-      "highlights": [
-        "Designed robots capable of passing and shooting balls at a Lagori tower and rebuilding the structure.",
-        "Developed pneumatic mechanisms using solenoid valves controlled via ESP32 microcontrollers.",
-        "Integrated LiDAR sensors to estimate distance and optimized distance-to-power mapping for tower knockdown.",
-        "Built two stair-climbing robots using STM32-based controllers with custom 2-layer PCBs.",
-        "Implemented PID-based locomotion and sensor-feedback loops for accurate distance, angle, and projectile control."
-      ]
-    },
-
     {
       "company": "Gears & Gears",
-      "position": "Project Lead — Automated Chamfering Machine",
+      "position": "Project Lead — Chamfering Machine for Rack Gear",
       "website": "",
-      "startDate": "2023-09-01",
-      "endDate": "2024-07-01",
-      "summary": "Led end-to-end development of an automated industrial chamfering system.",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Led development of an automated chamfering system including embedded compute and HMI.",
       "highlights": [
-        "Designed and deployed an automated chamfering machine that reduced gear chipping by ~85%.",
-        "Used Raspberry Pi as the main controller and designed all mechanical components in SolidWorks.",
-        "Developed a React.js based HMI and implemented an algorithm to compute chamfer angles from rack geometry."
+        "Designed and deployed a chamfering machine that reduced gear chipping by ~85%.",
+        "Used Raspberry Pi as the computational backbone; designed mechanical components in SolidWorks/AutoCAD.",
+        "Built an HMI in React.js and implemented an algorithm to compute chamfering angle from rack dimensions."
       ]
     },
-
+    {
+      "company": "UBM Engineering",
+      "position": "Machine Maintenance Intern",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Worked on PLC automation and industrial maintenance workflows.",
+      "highlights": [
+        "Worked with PLC automation using hydraulic motors.",
+        "Hands-on exposure to Siemens PLC concepts and industrial troubleshooting."
+      ]
+    },
     {
       "company": "Hook EV Cycle Converters",
       "position": "Electronics Intern",
       "website": "",
-      "startDate": "2021-06-01",
-      "endDate": "2021-09-01",
-      "summary": "Designed embedded electronics for electric vehicle conversion systems.",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Designed embedded electronics and reverse-engineered controllers for EV conversion systems.",
       "highlights": [
-        "Designed an EV conversion kiosk with HMI, NFC authentication, GPS tracking, and backend integration.",
-        "Reverse-engineered a commercial ESC and developed a cost-reduced in-house controller (~40% cost reduction).",
-        "Implemented three custom PPM-based motor control modes."
+        "Designed an EV conversion kiosk with HMI, solenoid locking, NFC access, GPS, and backend-linked tracking.",
+        "Reverse-engineered a high-cost ESC to create an in-house controller (~40% cost reduction).",
+        "Integrated hardware into a PCB and implemented three custom PPM-based control modes."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Cosmo Logistic Theme (eYRC’23–24, IIT Bombay) — Rank 1",
+      "dates": "Oct 2023 – Apr 2024",
+      "bullets": [
+        "Engineered an autonomous warehouse logistics system integrating a robotic arm and mobile robot using ROS2, MoveIt2, and Nav2.",
+        "Implemented OpenCV-based ArUco marker detection for box localization and pose estimation.",
+        "Used Nav2 for path planning/localization and controlled a UR5 robotic arm using MoveIt for pick-and-place."
+      ]
+    },
+    {
+      "title": "ISRO Robotics Challenge — Team Lead",
+      "dates": "Oct 2023 – Apr 2024",
+      "bullets": [
+        "Built a six-wheel Mars-mission rover with rocker–bogie suspension and 3D-printed TPU wheels for soft sand traction.",
+        "Designed a custom ESP32-based control PCB and implemented PID control for smooth six-wheel locomotion.",
+        "Deployed OpenCV for test-tube detection and integrated LiDAR, camera, and IMU for robust navigation.",
+        "Achieved All-India Rank 9 out of 140 teams in Stage 2."
+      ]
+    },
+    {
+      "title": "ABU ROBOCON 2023 & 2022 — Team Manager",
+      "dates": "Oct 2021 – Apr 2023",
+      "bullets": [
+        "Designed robots for Lagori tower gameplay: passing/shooting balls, rebuilding the tower, and multi-robot coordination.",
+        "Prototyped pneumatic mechanisms using solenoid valves controlled via ESP32 microcontrollers.",
+        "Integrated LiDAR for distance measurement and developed algorithms optimizing distance-to-power ratio for tower knockdown.",
+        "Developed stair-climbing robots with STM32-based controller, custom 2-layer PCB, PID control, and sensor-feedback for distance/angle estimation and projectile/ring-shooting precision."
       ]
     }
   ],
@@ -145,77 +126,38 @@
   "skills": [
     {
       "name": "Programming",
+      "level": "",
       "keywords": ["Embedded C", "C++", "Python", "MATLAB", "JavaScript"]
     },
     {
-      "name": "Robotics & Autonomy",
-      "keywords": ["ROS2", "Nav2", "MoveIt2", "SLAM", "A*", "RRT", "Pure Pursuit", "EKF", "PID"]
+      "name": "Robotics",
+      "level": "",
+      "keywords": ["ROS2", "Nav2", "MoveIt2", "OpenCV", "SLAM", "Path Planning", "Sensor Fusion", "PID Control"]
     },
     {
-      "name": "Embedded & Hardware",
-      "keywords": ["ESP32", "STM32", "ARM", "Raspberry Pi", "PCB Design", "IMU", "Encoders", "Cameras"]
+      "name": "Embedded / Hardware",
+      "level": "",
+      "keywords": ["ESP32", "STM32", "ARM", "Raspberry Pi", "PCB Design", "LiDAR", "IMU", "Cameras"]
     },
     {
       "name": "Tools",
-      "keywords": ["Altium", "SolidWorks", "MATLAB/Simulink", "OpenCV", "Linux", "Git"]
+      "level": "",
+      "keywords": ["Altium", "SolidWorks", "MATLAB/Simulink", "Linux", "Git/GitHub"]
     }
   ],
 
-  "awards": [
-    {
-      "title": "AIR 1 — IIT Bombay e-Yantra Robotics Competition (eYRC’23–24)",
-      "date": "2023–2024",
-      "awarder": "IIT Bombay",
-      "summary": ""
-    },
-    {
-      "title": "Winner — Pragati 2024 (National Business Plan Competition, SFIT)",
-      "date": "2024",
-      "awarder": "SFIT",
-      "summary": ""
-    },
-    {
-      "title": "Winner — Conception 2024 (Project Presentation Competition)",
-      "date": "2024",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "Winner — Prakalp’24 ISTE-KJS (Technical Paper Presentation)",
-      "date": "2024",
-      "awarder": "ISTE-KJS",
-      "summary": ""
-    },
-    {
-      "title": "Winner — Robo Route Rumble (LSRB Algorithm)",
-      "date": "Sep 2023",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "Winner — Yantrikey SolidWorks Design Competition",
-      "date": "Feb 2023",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "CSWP — Certified SolidWorks Professional",
-      "date": "",
-      "awarder": "Dassault Systèmes",
-      "summary": ""
-    },
-    {
-      "title": "Represented St. Francis Institute of Technology at ABU Robocon 2022–23, IIT Delhi",
-      "date": "2022–2023",
-      "awarder": "ABU Robocon",
-      "summary": ""
-    }
+  "achievements": [
+    "AIR 1 – IIT Bombay e-Yantra Robotics Competition",
+    "Winner – Pragati 2024 (National Business Plan Competition, SFIT)",
+    "Winner – Conception 2024 (Project Presentation Competition)",
+    "Winner – Prakalp’24 ISTE-KJS (Technical Paper Presentation)",
+    "Winner – Robo Route Rumble (Line Following Robot, LSRB Algorithm, Sep 2023)",
+    "Winner – Yantrikey SolidWorks Design Competition (Feb 2023)",
+    "CSWP – Certified SolidWorks Professional Certification",
+    "Represented St. Francis Institute of Technology at ABU Robocon 2022–23, IIT Delhi"
   ],
 
   "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
+    { "name": "Available upon request", "reference": "" }
   ]
 }
