@@ -4,12 +4,14 @@
   {% for e in site.data.bio.education %}
     <div class="resume-item">
 
+      <!-- Institution + Dates -->
       <div class="resume-item-header">
-        <div class="resume-title">{{ e.institution }}</div>
+        <div class="resume-title">
+          <strong>{{ e.institution }}</strong>
+        </div>
 
-        {% assign _ed = e.dates | default: "" %}
-        {% if _ed != "" and _ed != "—" %}
-          <div class="resume-date">{{ _ed }}</div>
+        {% if e.dates and e.dates != "" and e.dates != "—" %}
+          <div class="resume-date">{{ e.dates }}</div>
         {% elsif e.startDate or e.endDate %}
           <div class="resume-date">
             {{ e.startDate }}{% if e.startDate and e.endDate %} – {% endif %}{{ e.endDate }}
@@ -17,6 +19,7 @@
         {% endif %}
       </div>
 
+      <!-- Degree line -->
       <div class="resume-subtitle">
         {{ e.studyType }}, {{ e.area }}{% if e.gpa %} — {{ e.gpa }}{% endif %}
       </div>
