@@ -4,12 +4,14 @@
   {% for w in site.data.bio.work %}
     <div class="resume-item">
 
+      <!-- Role/Company + Dates -->
       <div class="resume-item-header">
-        <div class="resume-title">{{ w.position }}, {{ w.company }}</div>
+        <div class="resume-title">
+          <strong>{{ w.position }}, {{ w.company }}</strong>
+        </div>
 
-        {% assign _wd = w.dates | default: "" %}
-        {% if _wd != "" %}
-          <div class="resume-date">{{ _wd }}</div>
+        {% if w.dates and w.dates != "" %}
+          <div class="resume-date">{{ w.dates }}</div>
         {% elsif w.startDate or w.endDate %}
           <div class="resume-date">
             {{ w.startDate }}{% if w.startDate and w.endDate %} – {% endif %}{{ w.endDate }}
@@ -17,10 +19,12 @@
         {% endif %}
       </div>
 
+      <!-- Summary -->
       {% if w.summary %}
         <div class="resume-subtitle">{{ w.summary }}</div>
       {% endif %}
 
+      <!-- Bullets -->
       {% if w.highlights and w.highlights.size > 0 %}
         <ul class="resume-bullets">
           {% for h in w.highlights %}
