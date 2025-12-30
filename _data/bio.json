@@ -32,7 +32,7 @@
     {
       "institution": "Purdue University",
       "area": "M.S. Robotics",
-      "studyType": "M.S.",
+     
       "startDate": "2025-08-01",
       "endDate": "Present",
       "dates": "2025 – Present",
@@ -42,9 +42,6 @@
     {
       "institution": "Mumbai University",
       "area": "B.Tech Electronics and Telecommunication Engineering (Honors in Data Science)",
-      "studyType": "B.Tech",
-      "startDate": "",
-      "endDate": "",
       "dates": "",
       "gpa": "8.6 CGPA",
       "courses": []
