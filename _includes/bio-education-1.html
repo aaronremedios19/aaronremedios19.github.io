@@ -21,8 +21,23 @@
 
       <!-- Degree line -->
       <div class="resume-subtitle">
-        {{ e.studyType }}, {{ e.area }}{% if e.gpa %} — {{ e.gpa }}{% endif %}
-      </div>
+  {% if e.studyType and e.studyType != "" %}
+    {{ e.studyType }}
+  {% endif %}
+
+  {% if e.studyType and e.area %}
+    , 
+  {% endif %}
+
+  {% if e.area %}
+    {{ e.area }}
+  {% endif %}
+
+  {% if e.gpa %}
+    — {{ e.gpa }}
+  {% endif %}
+</div>
+
 
     </div>
   {% endfor %}
