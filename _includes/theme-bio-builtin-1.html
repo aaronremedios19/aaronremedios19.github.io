@@ -42,12 +42,22 @@
       {% for p in site.data.bio.projects %}
         <div style="margin-bottom: 1.4em;">
 
-          <!-- Title + Date (date will NEVER get cut) -->
+          <!-- PROJECT TITLE -->
           <strong>{{ p.title }}</strong>
-          <div style="color: rgba(0,0,0,0.6); font-size: 0.9em; margin-top: 2px;">
-            {{ p.dates }}
-          </div>
 
+          <!-- DATE HANDLING (BULLETPROOF) -->
+          {% assign _dates = p.dates | default: p.date %}
+          {% if _dates %}
+            <div style="color: rgba(0,0,0,0.6); font-size: 0.9em; margin-top: 2px;">
+              {{ _dates }}
+            </div>
+          {% elsif p.startDate or p.endDate %}
+            <div style="color: rgba(0,0,0,0.6); font-size: 0.9em; margin-top: 2px;">
+              {{ p.startDate }}{% if p.startDate and p.endDate %} – {% endif %}{{ p.endDate }}
+            </div>
+          {% endif %}
+
+          <!-- BULLETS -->
           <ul style="margin-top: 0.6em;">
             {% for b in p.bullets %}
               <li>{{ b }}</li>
