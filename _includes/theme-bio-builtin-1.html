@@ -1,7 +1,9 @@
 <div style="margin-top: 10px;" class="ui stackable grid container">
 
   <div class="sixteen wide column no-bottom">
-    <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+    <h2 class="ui center aligned header no-bottom">
+      {{ site.data.bio.basics.name }}
+    </h2>
   </div>
 
   <div class="eight wide left aligned column">
@@ -18,23 +20,38 @@
   {% include bio-education-1.html %}
   {% include bio-work-1.html %}
 
-  <!-- Projects -->
+  <!-- ===================== -->
+  <!-- Key Projects Section -->
+  <!-- ===================== -->
   {% if site.data.bio.projects and site.data.bio.projects.size > 0 %}
   <div class="sixteen wide column resume-section">
-    <h3 class="ui header">Key Projects and Achievements</h3>
+
+    <h3 class="ui header" style="font-weight: 800;">
+      Key Projects and Achievements
+    </h3>
 
     {% for p in site.data.bio.projects %}
-      <div class="resume-item">
+      <div class="resume-item" style="margin-bottom: 1.4em;">
 
-        <div class="resume-item-header">
-          <div class="resume-title">{{ p.title }}</div>
+        <div class="resume-item-header"
+             style="display: flex; justify-content: space-between; align-items: baseline;">
+
+          <!-- Project Title -->
+          <div class="resume-title" style="font-weight: 700;">
+            {{ p.title }}
+          </div>
+
+          <!-- Dates -->
           {% if p.dates %}
-            <div class="resume-date">{{ p.dates }}</div>
+            <div class="resume-date" style="font-style: italic; white-space: nowrap;">
+              {{ p.dates }}
+            </div>
           {% endif %}
         </div>
 
+        <!-- Bullet Points -->
         {% if p.bullets and p.bullets.size > 0 %}
-          <ul class="resume-bullets">
+          <ul class="resume-bullets" style="margin-top: 0.4em;">
             {% for b in p.bullets %}
               <li>{{ b }}</li>
             {% endfor %}
@@ -48,15 +65,22 @@
 
   {% include bio-skills-1.html %}
 
+  <!-- ================= -->
   <!-- Achievements -->
+  <!-- ================= -->
   {% if site.data.bio.achievements and site.data.bio.achievements.size > 0 %}
   <div class="sixteen wide column resume-section">
-    <h3 class="ui header">Achievements</h3>
+
+    <h3 class="ui header" style="font-weight: 800;">
+      Achievements
+    </h3>
+
     <ul class="resume-bullets">
       {% for a in site.data.bio.achievements %}
         <li>{{ a }}</li>
       {% endfor %}
     </ul>
+
   </div>
   {% endif %}
 
