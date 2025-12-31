@@ -46,3 +46,23 @@
 .resume-bullets {
   margin-top: 0.4rem;
 }
+/* Force uniform image sizes for project galleries */
+.ui.images {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.ui.images .image {
+  width: 100% !important;
+  height: 220px !important;   /* adjust height if needed */
+  overflow: hidden;
+}
+
+.ui.images .image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;          /* THIS fixes the proportions */
+  border-radius: 10px;
+}
+
