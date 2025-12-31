@@ -4,7 +4,7 @@ type: project
 image: images/Hook_4_product.jpeg
 title: Electronics Subsystem & Access Control Development – Hook EV Systems
 
-permalink: /projects/hook-ev/
+permalink: /projects/hook
 
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-06
