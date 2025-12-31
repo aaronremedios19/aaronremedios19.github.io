@@ -46,23 +46,25 @@
 .resume-bullets {
   margin-top: 0.4rem;
 }
-/* Force uniform image sizes for project galleries */
-.ui.images {
+
+
+/* =========================================
+   FORCE uniform image sizing for project galleries
+   (Works with: <div class="ui small rounded images"> <img class="ui image"> ...)
+   ========================================= */
+
+.ui.small.rounded.images.uniform-project-images {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
+  gap: 16px !important;
+  margin: 1.2em 0 !important;
 }
 
-.ui.images .image {
+.ui.small.rounded.images.uniform-project-images > img.ui.image {
   width: 100% !important;
-  height: 220px !important;   /* adjust height if needed */
-  overflow: hidden;
+  height: 240px !important;      /* adjust height here */
+  object-fit: cover !important;  /* key: same size without stretching */
+  display: block !important;
+  max-width: none !important;
+  border-radius: 10px !important;
 }
-
-.ui.images .image img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover;          /* THIS fixes the proportions */
-  border-radius: 10px;
-}
-
