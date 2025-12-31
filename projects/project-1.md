@@ -15,12 +15,14 @@ labels:
 summary: Electronics Subsystem & Access Control Development – Hook EV Systems
 ---
 
-<div class="ui small rounded images">
+
+<div class="ui small rounded images uniform-project-images">
   <img class="ui image" src="../images/Hook_!_open.jpeg">
   <img class="ui image" src="../images/Hook_2_pcb.jpeg">
   <img class="ui image" src="../images/Hool_3_Test.jpeg">
   <img class="ui image" src="../images/Hook_5.jpeg">
 </div>
+
 
 
 While at Hook EV Systems, I was tasked with the design and implementation of the core embedded electronics for the EV bicycle conversion kit, with a focus on compactness, connectivity, and secure access. The system’s purpose was to enable any conventional bicycle to be converted into an electric bicycle with real-time data connectivity and intuitive mode selection.
