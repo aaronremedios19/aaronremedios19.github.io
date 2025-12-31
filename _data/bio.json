@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Aaron Remedios",
-    "label": "M.S. Robotics | Robotics • Embedded Systems • Autonomous systems",
+    "label": "M.S. Robotics | Robotics • Embedded Systems • Autonomous Systems",
     "picture": "/images/profile.jpg",
     "email": "aaron.remedios25@gmail.com",
     "phone": "+1 765-543-8872",
@@ -31,20 +31,17 @@
   "education": [
     {
       "institution": "Purdue University",
-      "area": " Robotics",
-      "studyType": "M.S",
-     
-      "startDate": "2025-08-01",
-      "endDate": "Present",
-      "dates": "2025 – Present",
+      "studyType": "M.S.",
+      "area": "Robotics",
+      "dates": "Aug 2025 – Present",
       "gpa": "3.8/4.0 GPA",
       "courses": []
     },
     {
       "institution": "Mumbai University",
       "studyType": "B.Tech",
-      "area": " Electronics and Telecommunication Engineering (Honors in Data Science)",
-      "dates": "",
+      "area": "Electronics and Telecommunication Engineering (Honors in Data Science)",
+      "dates": "2019 – 2023",
       "gpa": "8.6/10 CGPA",
       "courses": []
     }
@@ -54,10 +51,7 @@
     {
       "company": "Avantrex Industries",
       "position": "Robotics Engineer",
-      "website": "",
-      "startDate": "August 2024  ",
-      "endDate": "August 2025",
-      "dates": " ",
+      "dates": "Aug 2024 – Aug 2025",
       "summary": "Designed embedded robotic systems for inspection/cleaning automation, including PCBs, control, and sensing.",
       "highlights": [
         "Built a compact pipe-inspection robot using ESP32 and a custom 4-layer PCB for <50 mm diameter pipelines.",
@@ -70,10 +64,7 @@
     {
       "company": "Gears & Gears",
       "position": "Project Lead — Chamfering Machine for Rack Gear",
-      "website": "",
-      "startDate": "September 2023",
-      "endDate": "July 2024",
-      "dates": "",
+      "dates": "Sep 2023 – Jul 2024",
       "summary": "Led development of an automated chamfering system including embedded compute and HMI.",
       "highlights": [
         "Designed and deployed a chamfering machine that reduced gear chipping by ~85%.",
@@ -84,10 +75,7 @@
     {
       "company": "UBM Engineering",
       "position": "Machine Maintenance Intern",
-      "website": "",
-      "startDate": "July 2022",
-      "endDate": "September 2022",
-      "dates": "",
+      "dates": "Jul 2022 – Sep 2022",
       "summary": "Worked on PLC automation and industrial maintenance workflows.",
       "highlights": [
         "Worked with PLC automation using hydraulic motors.",
@@ -97,10 +85,7 @@
     {
       "company": "Hook EV Cycle Converters",
       "position": "Electronics Intern",
-      "website": "",
-      "startDate": "June 2021",
-      "endDate": "September 2021",
-      "dates": "",
+      "dates": "Jun 2021 – Sep 2021",
       "summary": "Designed embedded electronics and reverse-engineered controllers for EV conversion systems.",
       "highlights": [
         "Designed an EV conversion kiosk with HMI, solenoid locking, NFC access, GPS, and backend-linked tracking.",
@@ -113,8 +98,6 @@
   "projects": [
     {
       "title": "Cosmo Logistic Theme (eYRC’23–24, IIT Bombay) — Rank 1",
-      "startDate": "August 2024  ",
-      "endDate": "August 2025",
       "dates": "Oct 2023 – Apr 2024",
       "bullets": [
         "Engineered an autonomous warehouse logistics system integrating a robotic arm and mobile robot using ROS2, MoveIt2, and Nav2.",
@@ -124,8 +107,6 @@
     },
     {
       "title": "ISRO Robotics Challenge — Team Lead",
-      "startDate": "August 2024  ",
-      "endDate": "August 2025",
       "dates": "Oct 2023 – Apr 2024",
       "bullets": [
         "Built a six-wheel Mars-mission rover with rocker–bogie suspension and 3D-printed TPU wheels for soft sand traction.",
@@ -136,8 +117,6 @@
     },
     {
       "title": "ABU ROBOCON 2023 & 2022 — Team Manager",
-      "startDate": "August 2024  ",
-      "endDate": "August 2025",
       "dates": "Oct 2021 – Apr 2023",
       "bullets": [
         "Designed robots for Lagori tower gameplay: passing/shooting balls, rebuilding the tower, and multi-robot coordination.",
@@ -151,22 +130,18 @@
   "skills": [
     {
       "name": "Programming",
-      "level": "",
       "keywords": ["Embedded C", "C++", "Python", "MATLAB", "JavaScript"]
     },
     {
       "name": "Robotics",
-      "level": "",
       "keywords": ["ROS2", "Nav2", "MoveIt2", "OpenCV", "SLAM", "Path Planning", "Sensor Fusion", "PID Control"]
     },
     {
       "name": "Embedded / Hardware",
-      "level": "",
       "keywords": ["ESP32", "STM32", "ARM", "Raspberry Pi", "PCB Design", "LiDAR", "IMU", "Cameras"]
     },
     {
       "name": "Tools",
-      "level": "",
       "keywords": ["Altium", "SolidWorks", "MATLAB/Simulink", "Linux", "Git/GitHub"]
     }
   ],
@@ -180,5 +155,5 @@
     "Winner – Yantrikey SolidWorks Design Competition (Feb 2023)",
     "CSWP – Certified SolidWorks Professional Certification",
     "Represented St. Francis Institute of Technology at ABU Robocon 2022–23, IIT Delhi"
-  ],
+  ]
 }
