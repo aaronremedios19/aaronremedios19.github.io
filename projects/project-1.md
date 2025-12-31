@@ -5,11 +5,13 @@ image: images/Hook_4_product.jpeg
 title: Electronics Subsystem & Access Control Development – Hook EV Systems
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2021-06-06
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - Controls
+  - Esp32
+  - Embedded C
+  - Pcb Design
+  - Stm32
 summary: Electronics Subsystem & Access Control Development – Hook EV Systems
 ---
 
