@@ -55,8 +55,8 @@
       "company": "Avantrex Industries",
       "position": "Robotics Engineer",
       "website": "",
-      "startDate": "August 2024 - August 2025",
-      "endDate": "",
+      "startDate": "August 2024  ",
+      "endDate": "August 2025",
       "dates": " ",
       "summary": "Designed embedded robotic systems for inspection/cleaning automation, including PCBs, control, and sensing.",
       "highlights": [
@@ -113,6 +113,8 @@
   "projects": [
     {
       "title": "Cosmo Logistic Theme (eYRC’23–24, IIT Bombay) — Rank 1",
+      "startDate": "August 2024  ",
+      "endDate": "August 2025",
       "dates": "Oct 2023 – Apr 2024",
       "bullets": [
         "Engineered an autonomous warehouse logistics system integrating a robotic arm and mobile robot using ROS2, MoveIt2, and Nav2.",
@@ -122,6 +124,8 @@
     },
     {
       "title": "ISRO Robotics Challenge — Team Lead",
+      "startDate": "August 2024  ",
+      "endDate": "August 2025",
       "dates": "Oct 2023 – Apr 2024",
       "bullets": [
         "Built a six-wheel Mars-mission rover with rocker–bogie suspension and 3D-printed TPU wheels for soft sand traction.",
@@ -132,6 +136,8 @@
     },
     {
       "title": "ABU ROBOCON 2023 & 2022 — Team Manager",
+      "startDate": "August 2024  ",
+      "endDate": "August 2025",
       "dates": "Oct 2021 – Apr 2023",
       "bullets": [
         "Designed robots for Lagori tower gameplay: passing/shooting balls, rebuilding the tower, and multi-robot coordination.",
