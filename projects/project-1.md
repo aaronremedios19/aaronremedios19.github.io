@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/Hook_4_product.jpeg
 title: Electronics Subsystem & Access Control Development – Hook EV Systems
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
@@ -17,7 +17,7 @@ summary: Electronics Subsystem & Access Control Development – Hook EV Systems
   <img class="ui image" src="../images/Hook_!_open.jpeg">
   <img class="ui image" src="../images/Hook_2_pcb.jpeg">
   <img class="ui image" src="../images/Hool_3_Test.jpeg">
-  <img class="ui image" src="../images/Hook_4_product.jpeg">
+  <img class="ui image" src="../images/Hook_5.jpeg">
 </div>
 
 
