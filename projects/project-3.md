@@ -5,7 +5,7 @@ image: images/PIR1.jpeg
 title: Pipe Inspection Robot 
 permalink: projects/PIR
 # All dates must be YYYY-MM-DD format!
-date: 2024-04-04
+date: 2024-08-01
 labels:
   - Embedded Systems
   - Esp32
@@ -18,7 +18,10 @@ labels:
 summary: A pipe inspection robot capeable of scaling pipes as small as 50mm dia
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/PIR2.jpeg">
+<img class="ui image" src="{{ site.baseurl }}/images/PIR3.jpeg">
+
+
 
 At Aventrex Industries Pvt. Ltd., I led the development of a compact in-pipe inspection robot designed to operate within gas pipelines having an internal diameter of only 50 mm. The primary engineering challenge was integrating sensing, computation, and communication hardware within the confined mechanical envelope while maintaining reliability and signal integrity. I designed a 30 mm × 50 mm multilayer PCB incorporating an ESP32 controller, MCP23S17 I/O expander, and BNO055 IMU, together with a Blue Robotics camera for internal visual inspection. Because RF signals attenuate heavily inside metallic pipelines, wireless communication was not feasible, so I evaluated multiple wired communication standards including RS-232, RS-485, optical fibre, and Ethernet. An RJ45-based Ethernet architecture was ultimately selected as it supported simultaneous video and control-data transmission over distances up to 200 meters with high noise immunity.
 
