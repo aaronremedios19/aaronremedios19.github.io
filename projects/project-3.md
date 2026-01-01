@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/PIR1.jpeg
 title: Pipe Inspection Robot 
 permalink: projects/PIR
 # All dates must be YYYY-MM-DD format!
