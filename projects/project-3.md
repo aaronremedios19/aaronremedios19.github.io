@@ -5,7 +5,7 @@ image: images/cotton-square.png
 title: Pipe Inspection Robot 
 permalink: projects/PIR
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2024-04-04
 labels:
   - Embedded Systems
   - Esp32
@@ -15,7 +15,7 @@ labels:
   - PID
   - EKF
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: A pipe inspection robot capeable of scaling pipes as small as 50mm dia
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
@@ -28,5 +28,5 @@ This project was executed as a two-member team, where my colleague focused on th
 
 
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+
 
