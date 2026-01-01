@@ -2,12 +2,18 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+title: Pipe Inspection Robot 
+permalink: projects/PIR
 # All dates must be YYYY-MM-DD format!
 date: 2014-04-12
 labels:
-  - Lisp
+  - Embedded Systems
+  - Esp32
+  - PCB design
+  - Altium
+  - Control Systems
+  - PID
+  - EKF
   - GitHub
 summary: A text adventure game I developed for ICS 313.
 ---
