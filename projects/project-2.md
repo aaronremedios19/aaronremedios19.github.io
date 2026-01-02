@@ -3,15 +3,15 @@ layout: project
 type: project
 image: images/vacay-square.png
 title: Vacay
-permalink: projects/vacay
+permalink: projects/sewer_robot
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2014-12-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A sewer insprction and cleaning robot.
+  - Hydraulics
+  - Raspberry Pi
+  - ARM Microcontroller
+  - Ethernet
+summary: A sewer insprction and cleaning robot for clearing drainage systems.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/sewer1_resized.jpeg">
