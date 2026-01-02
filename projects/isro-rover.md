@@ -22,10 +22,10 @@ summary: Designed and led the integration of a product-grade autonomous robotic 
 
 
 <div class="ui small rounded images uniform-project-images">
-  <img class="ui image" src="/images/Hook_!_open.jpeg">
-  <img class="ui image" src="/images/Hook_2_pcb.jpeg">
-  <img class="ui image" src="/images/Hool_3_Test_resized_resized.jpeg">
-  <img class="ui image" src="/images/hookab.jpeg">
+ 
+  <img class="ui image" src="/images/ISRO3.jpeg">
+  <img class="ui image" src="/images/ISRO2.jpeg">
+  <img class="ui image" src="/images/ISRO1.jpeg"> 
   
 </div>
 
