@@ -1,20 +1,22 @@
 ---
 layout: project
 type: project
-image: images/Hook_4_product.jpeg
+image: images/ISRO1.jpeg
 title: ISRO IRoC-U 2024
 
 permalink: /projects/ISRO_IRoC
 
 # All dates must be YYYY-MM-DD format!
-date: 2021-06-06
+date: 2023-07-01
 labels:
   - Controls
+  - Ros2
+  - MoveIt
+  - RaspberryPi 5
   - Esp32
   - Embedded C
-  - Pcb Design
   - Stm32
-summary: Electronics Subsystem & Access Control Development – Hook EV Systems
+summary: Designed and led the integration of a product-grade autonomous robotic system spanning perception, control systems, and embedded electronics.
 ---
 
 
