@@ -13,7 +13,7 @@ labels:
   - Ethernet
 summary: A sewer insprction and cleaning robot for clearing drainage systems.
 ---
-
+<div class="ui small rounded images uniform-project-images">
 <img class="ui medium right floated rounded image" src="../images/sewer1_resized.jpeg">
 <img class="ui medium right floated rounded image" src="../images/sewer2_resized.jpeg">
 <img class="ui medium right floated rounded image" src="../images/sewer2_resized (1).jpeg">
