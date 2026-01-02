@@ -16,7 +16,7 @@ labels:
   - Esp32
   - Embedded C
   - Stm32
-summary: Designed and led the integration of a product-grade autonomous robotic system spanning perception, control systems, and embedded electronics.
+summary: Designed and led the integration of a six-wheeled rocker-bogie robotic system, combining embedded control and mechanical design for reliable operation in rugged, lunar-like environments.
 ---
 
 
