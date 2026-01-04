@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/AS1.jpeg
-title: Electronics Subsystem & Access Control Development – Hook EV Systems
-permalink: /projects/autonomous/
+title: Turtlebot4 Autonomous Navigation and Control 
+permalink: /projects/Autonomy/
 date: 2021-06-06
 labels:
   - Controls
@@ -11,7 +11,7 @@ labels:
   - Embedded C
   - Pcb Design
   - Stm32
-summary: Electronics Subsystem & Access Control Development – Hook EV Systems
+summary: Autonomous system course project at Purdue(ME59700)
 ---
 
 <div class="ui small rounded images uniform-project-images">
