@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/images/sewer2_resized.jpeg
+image: images/images/sewer3_resized.jpeg
 title: Sewer Inspection Robot
 permalink: projects/sewer_robot
 # All dates must be YYYY-MM-DD format!
