@@ -5,7 +5,7 @@ type: project
 image: images/ISRO1.jpeg
 title: ROBOCON2023
 
-permalink: /projects/ASS
+permalink: /projects/robocon2023
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-06
 labels:
