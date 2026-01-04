@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: images/images/sewer1_resized.jpeg
-title: Vacay
+image: images/images/sewer1.jpeg
+title: Sewer Inspection Robot
 permalink: projects/sewer_robot
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-01
@@ -11,6 +11,7 @@ labels:
   - Raspberry Pi
   - ARM Microcontroller
   - Ethernet
+  - Sonar 
 summary: A sewer insprction and cleaning robot for clearing drainage systems.
 ---
 <div class="ui small rounded images uniform-project-images">
