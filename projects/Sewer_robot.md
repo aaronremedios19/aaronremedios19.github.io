@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/images/sewer3_resized.jpeg
+image: images/images/sewer2_resized.jpeg
 title: Sewer Inspection Robot
 permalink: projects/sewer_robot
 # All dates must be YYYY-MM-DD format!
@@ -17,7 +17,7 @@ summary: A sewer insprction and cleaning robot for clearing drainage systems.
 <div class="ui small rounded images uniform-project-images">
 <img class="ui medium right floated rounded image" src="../images/sewer1.jpeg">
 <img class="ui medium right floated rounded image" src="../images/sewer2_resized.jpeg">
-<img class="ui medium right floated rounded image" src="../images/sewer3_resized.jpeg">
+<img class="ui medium right floated rounded image" src="../images/sewer3.jpeg">
 
 </div>
 
