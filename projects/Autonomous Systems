@@ -1,11 +1,10 @@
 ---
 layout: project
 type: project
-image: images/Hook_4_product.jpeg
-title: Autonomous Systems
+image: images/ISRO1.jpeg
+title: ISRO IRoC-U 2024
 
-permalink: /projects/hook_ev
-
+permalink: /projects/ASS
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-06
 labels:
