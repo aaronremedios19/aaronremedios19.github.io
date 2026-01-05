@@ -15,10 +15,10 @@ summary: Design and development of competition robots for ABU ROBOCON 2023.
 ---
 
 <div class="ui small rounded images uniform-project-images">
-  <img class="ui image" src="{{ site.baseurl }}/images/robocon20233.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/R2.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/robocon20234.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/Robocon2023.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/robocon20232.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/R1.jpeg">
 </div>
 
 ## Overview
