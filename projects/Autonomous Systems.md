@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/ISRO1.jpeg
+image: images/AS2.jpeg
 title: Autonomous Systems
 
 permalink: /projects/Autonomous Systems
