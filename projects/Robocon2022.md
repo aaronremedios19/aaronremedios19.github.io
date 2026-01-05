@@ -2,7 +2,7 @@
 layout: project
 type: project
 title: ABU ROBOCON 2022
-image: images/ISRO1.jpeg
+image: images/R2022.jpeg
 permalink: /projects/robocon/
 date: 2022-03-01
 labels:
