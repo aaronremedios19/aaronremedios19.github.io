@@ -2,7 +2,7 @@
 layout: project
 type: project
 title: ABU ROBOCON 2023
-image: images/robocon20232.jpeg
+image: images/robocon20232.jpeg/
 permalink: /projects/robocon2023/
 date: 2023-03-01
 labels:
