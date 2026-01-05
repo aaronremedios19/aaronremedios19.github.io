@@ -2,9 +2,9 @@
 layout: project
 type: project
 image: images/ISRO1.jpeg
-title: ISRO IRoC-U 2024
+title: Autonomous Systems
 
-permalink: /projects/ASS
+permalink: /projects/Autonomous Systems
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-06
 labels:
