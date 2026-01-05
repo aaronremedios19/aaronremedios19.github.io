@@ -20,7 +20,7 @@ summary: A pipe inspection robot capeable of scaling pipes as small as 50mm dia
  <div class="ui small rounded images uniform-project-images">
   <img class="ui image" src="{{ site.baseurl }}/images/PIR1.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/PIR2_resized (2).jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/PIR5.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/PIRPCB.png">
   <img class="ui image" src="{{ site.baseurl }}/images/PIR3_resized (2).jpeg">
   
 
