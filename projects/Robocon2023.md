@@ -2,7 +2,7 @@
 layout: project
 type: project
 title: ABU ROBOCON 2023
-image: images/Robocon2023.jpeg
+image: images/robocon20232.jpeg
 permalink: /projects/robocon2023/
 date: 2023-03-01
 labels:
@@ -15,10 +15,10 @@ summary: Design and development of competition robots for ABU ROBOCON 2023.
 ---
 
 <div class="ui small rounded images uniform-project-images">
-  <img class="ui image" src="{{ site.baseurl }}/images/Hook_!_open.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/Hook_2_pcb.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/Hool_3_Test_resized_resized.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/robocon20233.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/robocon20234.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/Robocon2023.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/robocon20232.jpeg">
 </div>
 
 ## Overview
