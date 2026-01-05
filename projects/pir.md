@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/PIR1.jpeg
+image: images/PIR4.jpeg
 title: Pipe Inspection Robot 
 permalink: projects/PIR
 # All dates must be YYYY-MM-DD format!
@@ -20,6 +20,7 @@ summary: A pipe inspection robot capeable of scaling pipes as small as 50mm dia
  <div class="ui small rounded images uniform-project-images">
   <img class="ui image" src="{{ site.baseurl }}/images/PIR2_resized (2).jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/PIR3_resized (2).jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/PIR1.jpeg">
   </div>
 
 
