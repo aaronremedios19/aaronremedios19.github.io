@@ -28,7 +28,7 @@ This competition marked my first serious entry into competitive robotics, where 
 
 Robot Strategy and My Role
 
-Our team, Team RAW (SFIT), developed two hitter robots and two seeker robots, each optimized for a specific phase of the game. I played a major role in the mechanical and pneumatic system design, especially for the Lagori pickup and stacking mechanisms.The hitter robot was responsible for breaking the Lagori stack using a high-speed shooting system.The seeker robot focused on collecting scattered discs and restacking them accurately.
+Our team, Team RAW (SFIT), developed a hitter robot and a seeker robot, each optimized for a specific phase of the game. I played a major role in the mechanical and pneumatic system design, especially for the Lagori pickup and stacking mechanisms.The hitter robot was responsible for breaking the Lagori stack using a high-speed shooting system.The seeker robot focused on collecting scattered discs and restacking them accurately.
 
 Lagori Pickup and Stacking Mechanism
 
@@ -56,11 +56,7 @@ Failure, Learning, and Design Philosophy
 Although pneumatic systems are powerful and easy to control, we learned a critical lesson:
 One small air leak can shut down the entire system.
 During the competition, a leak in the plastic air tank tubing rendered the whole pneumatic system unusable at a crucial moment. This failure taught me the importance of:
-Robust fittings
-
-Redundancy
-
-Mechanical safety margins
+Robust fittings, redundancy ,Mechanical safety margins
 
 Because of this experience, in later projects I became more cautious with pneumatics and often preferred mechanical or motor-driven solutions unless pneumatics offered a clear advantage.
 Outcome and Learning
