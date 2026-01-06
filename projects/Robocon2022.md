@@ -21,13 +21,82 @@ summary: Design and development of competition robots for ABU ROBOCON 2022.
   <img class="ui image" src="{{ site.baseurl }}/images/R2022.jpeg">
 </div>
 
-## Overview
-ABU Robocon 2022 revolved around the traditional Indian game Lagori (Seven Stones), where teams were required to design and deploy two coordinated autonomous robots to knock down a stack of Lagori discs and then accurately retrieve, stack, and place them back while competing against an opposing team. The challenge demanded precise locomotion, fast actuation, robust manipulation, and seamless coordination between multiple robots under strict time and space constraints.
+## OverviewABU Robocon 2022 was based on the traditional Indian game Lagori (Seven Stones). The competition required teams to design and operate two coordinated robots that could knock down a stack of Lagori discs and then quickly retrieve, stack, and place them back while competing against an opposing team. The challenge demanded fast movement, precise control, reliable gripping, and smooth coordination under strict time and size limits.
 
-Our team, Team RAW (SFIT), developed two seeker robots and two hitter robots, each optimized for a specific phase of the game. I played a major role in the mechanical and pneumatic system design, particularly focusing on the Lagori pickup and stacking mechanisms. One robot was dedicated to breaking the Lagori stack using a high-speed shooting mechanism, while the second robot was responsible for picking up scattered Lagori discs and restacking them accurately.
+This competition marked my first serious entry into competitive robotics, where I learned the fundamentals of control systems, mechanical design, and hardware integration through hands-on experience.
 
-The Lagori retrieval robot employed a pneumatic gripper system combined with a belt-and-pulley assisted mechanism to reliably grasp and lift multiple discs. Since Lagori discs could land either flat or on their curved edge after being knocked down, the system was designed to handle both orientations. A compressed-air nozzle was used to topple vertically standing discs, ensuring consistent pickup conditions. The gripper itself utilized variable-pressure pneumatic actuation, allowing it to adaptively grip between one to five discs without damaging them. Thin foam padding was integrated inside the gripper claws to balance grip force and prevent surface wear on the discs.
+Robot Strategy and My Role
 
-In parallel, the striking robot used a roller-based shooting mechanism, where Lagori-breaking balls were accelerated using motor-driven rollers combined with a pneumatic feeding system. Ball velocity and trajectory were carefully tuned through mechanical design and empirical testing. Both robots employed an omni-wheel drive in an X-configuration, enabling fast omnidirectional motion across the field. Closed-loop PID control, based on encoder feedback, was implemented to achieve smooth, stable, and accurate locomotion, which was critical during precise alignment for shooting and stacking tasks.
+Our team, Team RAW (SFIT), developed two hitter robots and two seeker robots, each optimized for a specific phase of the game. I played a major role in the mechanical and pneumatic system design, especially for the Lagori pickup and stacking mechanisms.
 
-This project gave me deep hands-on experience in pneumatic system design, multi-robot coordination, PID-controlled locomotion, and mechanism optimization under competition constraints. It also strengthened my ability to translate theoretical mechanical and control concepts into reliable, competition-grade robotic systems operating in a dynamic, adversarial environment.
+The hitter robot was responsible for breaking the Lagori stack using a high-speed shooting system.
+
+The seeker robot focused on collecting scattered discs and restacking them accurately.
+
+Lagori Pickup and Stacking Mechanism
+
+The Lagori retrieval robot used a pneumatic gripper system combined with a belt-and-pulley assisted lifting mechanism to pick up multiple discs reliably.
+
+A key challenge was that Lagori discs could land:
+
+Flat on the ground, or
+
+Standing vertically on their curved edge
+
+To handle both cases, we added a compressed-air nozzle that gently knocked vertically standing discs flat, ensuring consistent pickup conditions.
+
+The gripper used variable-pressure pneumatic actuation, allowing it to grip one to five discs securely without damaging them. To protect the discs and improve grip, we added thin foam padding inside the gripper claws, balancing holding force and surface safety.
+
+Pneumatic Control and Electronics Design
+
+The pneumatic system was controlled using solenoid valves, specifically Janatics 5-port, 2-position valves, which regulated airflow to the actuators.
+
+To manage this system cleanly, I designed a dedicated ESP32-based control unit:
+
+Designed a 2-layer PCB in Altium
+
+Reduced wiring complexity and improved reliability
+
+This PCB acted as a child board, communicating with the main PCB using the I²C protocol
+
+The same ESP32-controlled system was also used for the ball pickup pneumatic gripper
+
+This experience introduced me to practical PCB design, signal routing, and electrical system organization in real robots.
+
+Failure, Learning, and Design Philosophy
+
+Although pneumatic systems are powerful and easy to control, we learned a critical lesson:
+
+One small air leak can shut down the entire system.
+
+During the competition, a leak in the plastic air tank tubing rendered the whole pneumatic system unusable at a crucial moment. This failure taught me the importance of:
+
+Robust fittings
+
+Redundancy
+
+Mechanical safety margins
+
+Because of this experience, in later projects I became more cautious with pneumatics and often preferred mechanical or motor-driven solutions unless pneumatics offered a clear advantage.
+
+Hitter Robot and Locomotion
+
+The hitter robot used a roller-based shooting mechanism, where balls were accelerated using motor-driven rollers, assisted by a pneumatic feeding system. Shooting speed and trajectory were refined through mechanical tuning and repeated testing.
+
+Both robots used an X-configuration omni-wheel drive, allowing fast and smooth movement in all directions. To achieve precise control, we implemented PID-based closed-loop locomotion using encoder feedback. This improved motion stability and accuracy, which was essential during alignment for both shooting and stacking.
+
+Outcome and Learning
+
+This project gave me strong hands-on experience in:
+
+Pneumatic system design and control
+
+PID-based locomotion
+
+Multi-robot coordination
+
+Mechanical and electrical system integration
+
+PCB design and structured electrical wiring
+
+Most importantly, it taught me how to convert theoretical concepts into reliable, competition-ready robotic systems, and how small design oversights can have large real-world consequences.
