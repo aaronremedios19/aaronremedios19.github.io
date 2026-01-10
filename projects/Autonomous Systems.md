@@ -20,9 +20,8 @@ summary: Built a fully autonomous robot capable of mapping unknown environments,
 
 <div class="ui small rounded images uniform-project-images">
   <img class="ui image" src="/images/AS2.jpeg">
-  <img class="ui image" src="/images/Hook_2_pcb.jpeg">
-  <img class="ui image" src="/images/Hool_3_Test_resized_resized.jpeg">
-  <img class="ui image" src="/images/hookab.jpeg">
+  <img class="ui image" src="/images/as1rot.png">
+
   
 </div>
 
