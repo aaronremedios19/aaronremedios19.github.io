@@ -11,7 +11,7 @@ labels:
   - Multi agent Systems
 ---
 
-<img class="research-hero" src="{{ site.baseurl }}/images/YOUR_IMAGE.jpeg" alt="Research figure">
+<img class="research-hero" src="{{ site.baseurl }}/images/slam.jpeg" alt="Research figure">
 
 
 
