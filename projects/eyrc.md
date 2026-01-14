@@ -21,7 +21,7 @@ summary: Built an autonomous warehouse logistics system integrating a mobile rob
 
 ## Overview
 
-In the IIT Bombay **e-Yantra Robotics Competition (eYRC) 2023–24**, we developed an autonomous logistics workflow that combined **mobile navigation** and **robotic manipulation** to complete task objectives under competition constraints.
+In the IIT Bombay **e-Yantra Robotics Competition (eYRC) 2023–24**, we developed an autonomous logistics workflow that combined **mobile navigation** and **robotic manipulation** to complete task objectives under competition constraints. HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 
 ## What We Built
 
