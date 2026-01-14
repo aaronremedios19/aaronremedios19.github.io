@@ -11,7 +11,8 @@ labels:
   - Multi agent Systems
 ---
 
-<img class="ui tiny left circular floated image" src="../images/slam.jpeg">
+<img class="research-hero" src="{{ site.baseurl }}/images/YOUR_IMAGE.jpeg" alt="Research figure">
+
 
 
 In this project, I conducted a research-focused study on multi-agent SLAM representations, analyzing the strengths and limitations of neural implicit maps and explicit Gaussian scene representations using recent systems such as MNE-SLAM and MAGiC-SLAM. Rather than modifying MNE-SLAM’s neural training pipeline, I instantiated Gaussian submaps externally as an explicit geometric backend to evaluate and analyze multi-agent behavior. This allowed me to inspect global consistency across agents, visualize loop-closure effects, and quantitatively assess map quality using rendering-based metrics such as PSNR, SSIM, LPIPS, and depth error—capabilities that are otherwise expensive or impractical with purely neural implicit fields.
