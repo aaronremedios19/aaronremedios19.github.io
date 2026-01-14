@@ -11,7 +11,7 @@ labels:
   - Multi agent Systems
 ---
 
-<img class="research-hero" src="{{ site.baseurl }}/images/slam.jpeg" alt="">
+<img class="research-hero" src="{{ site.baseurl }}/images/slam2.jpeg" alt="">
 
 
 
