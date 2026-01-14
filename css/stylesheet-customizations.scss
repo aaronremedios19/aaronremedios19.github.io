@@ -68,3 +68,45 @@
   max-width: none !important;
   border-radius: 10px !important;
 }
+
+/* ===============================
+   Research page image fixes
+   =============================== */
+
+/* Big clean hero image (no floating, centered) */
+.essay-page img.research-hero,
+.project-page img.research-hero {
+  display: block !important;
+  float: none !important;
+  width: min(760px, 100%) !important;
+  height: auto !important;
+  margin: 14px auto 20px auto !important;
+  border-radius: 12px !important;
+}
+
+/* Gallery grid with equal-sized tiles */
+.essay-page .research-gallery,
+.project-page .research-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 14px 0 22px 0;
+}
+
+.essay-page .research-gallery img,
+.project-page .research-gallery img {
+  width: 100% !important;
+  aspect-ratio: 4 / 3;     /* makes them uniform */
+  object-fit: cover;       /* crops nicely */
+  border-radius: 12px;
+  display: block;
+}
+
+/* If any old Semantic UI floated images still exist, neutralize them inside research pages */
+.essay-page img.ui.image,
+.essay-page img.ui.small.image,
+.essay-page img.ui.left.floated.image,
+.essay-page img.ui.right.floated.image {
+  float: none !important;
+}
+
