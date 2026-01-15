@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: 
+title: Solar panel placement robot 
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-06
 labels:
