@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-title: IIT Bombay e-Yantra Robotics Competition (eYRC) 2023–24 — Rank 1 hiiii
+title: IIT Bombay e-Yantra Robotics Competition (eYRC) 2023–24 — Rank 1 
 image: images/EY1.jpeg
 permalink: /projects/eyantra-eyrc/
 date: 2024-04-01
