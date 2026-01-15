@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Combining MNE and Magic SLAM
 # All dates must be YYYY-MM-DD format!
-date: 2025-08-26 - current
+date: 2025-08-26
 labels:
   - Nvidia Issac Sim
   - Motion Planning
