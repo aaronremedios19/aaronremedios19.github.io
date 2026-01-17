@@ -13,7 +13,7 @@ labels:
   - Embedded systems
 ---
 
-As my bachelor’s major project, I worked with Gears & Gears Manufacturing Co., Mumbai, to research ,reverse engineer  and build a servo-driven automated chamfering machine specifically for rack and pinion gears. The core challenge was that commercially available chamfering machines—largely imported from China and Germany—were designed for spur gears and relied on expensive PLC-based automation, making them unsuitable for small-scale manufacturers focused on rack gears.
+As my bachelor’s major project, I worked with Gears & Gears Manufacturing Co., Mumbai, to research ,reverse engineer  and build a servo-driven automated chamfering machine specifically for rack and pinion gears. The core challenge was that commercially available chamfering machines largely imported from China and Germany were designed for spur gears and relied on expensive PLC-based automation, making them unsuitable for small-scale manufacturers focused on rack gears.
 
 System Architecture and Mechanical Design
 
