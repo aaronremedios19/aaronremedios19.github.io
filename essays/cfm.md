@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Chamfering Machine for Rack and Pinion gears
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2024-09-08
 labels:
   - Product Development
   - Automation
@@ -48,3 +48,12 @@ To minimize reliance on skilled operators, I developed a locally hosted React-ba
 This approach eliminated setup errors, reduced training requirements, and ensured consistent output quality across different operators and production batches.
 Outcome and Impact
 By replacing PLC-based automation with an embedded, software-driven control architecture, we achieved reliable and repeatable chamfering performance at a fraction of the cost of commercial machines. The entire system was developed for under $1000, representing a smarter and more efficient solution customized for the specific rack gear use case.
+
+<img class="research-hero" src="{{ site.baseurl }}/images/slam2.jpeg" alt="">
+<div class="ui small rounded images uniform-project-images">
+  <img class="ui image" src="{{ site.baseurl }}/images/R2.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/R3.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/Robocon2023.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/R1.jpeg">
+</div>
+
