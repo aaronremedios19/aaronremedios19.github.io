@@ -53,7 +53,7 @@ By replacing PLC-based automation with an embedded, software-driven control arch
 
 
 <div class="ui small rounded images uniform-project-images">
-  <img class="research-hero" src="{{ site.baseurl }}/images/p4.jpeg" alt="">
+  <img class="research-hero" src="{{ site.baseurl }}/images/p4.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/p3.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/p2.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/p1.jpeg">
