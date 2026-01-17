@@ -13,7 +13,7 @@ labels:
   - Embedded systems
 ---
 
-As my bachelor’s major project, I worked with Gears & Gears Manufacturing Co., Mumbai, to research ,reverse engineer  and build a servo-driven automated chamfering machine specifically for rack and pinion gears. The core challenge was that commercially available chamfering machines largely imported from China and Germany were designed for spur gears and relied on expensive PLC-based automation, making them unsuitable for small-scale manufacturers focused on rack gears.
+As my bachelor’s major project, I worked with UBM-Gears & Gears Manufacturing Co., Mumbai, to research ,reverse engineer  and build a servo-driven automated chamfering machine specifically for rack and pinion gears. The core challenge was that commercially available chamfering machines largely imported from China and Germany were designed for spur gears and relied on expensive PLC-based automation, making them unsuitable for small-scale manufacturers focused on rack gears.
 
 System Architecture and Mechanical Design
 
@@ -48,6 +48,8 @@ To minimize reliance on skilled operators, I developed a locally hosted React-ba
 This approach eliminated setup errors, reduced training requirements, and ensured consistent output quality across different operators and production batches.
 Outcome and Impact
 By replacing PLC-based automation with an embedded, software-driven control architecture, we achieved reliable and repeatable chamfering performance at a fraction of the cost of commercial machines. The entire system was developed for under $1000, representing a smarter and more efficient solution customized for the specific rack gear use case.
+
+This project gave us recognition all across India winning more that 7 awards for this innovation. The project ip belongs to the company and they are currently looking to file 
 
 
 
