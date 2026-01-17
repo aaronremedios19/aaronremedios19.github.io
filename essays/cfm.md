@@ -49,7 +49,7 @@ This approach eliminated setup errors, reduced training requirements, and ensure
 Outcome and Impact
 By replacing PLC-based automation with an embedded, software-driven control architecture, we achieved reliable and repeatable chamfering performance at a fraction of the cost of commercial machines. The entire system was developed for under $1000, representing a smarter and more efficient solution customized for the specific rack gear use case.
 
-This project gave us recognition all across India winning more that 7 awards for this innovation. The project ip belongs to the company and they are currently looking to file 
+This project gave us recognition all across India winning more that 7 awards for this innovation. The project ip belongs to the company and they are currently looking to file a patent for this device.
 
 
 
