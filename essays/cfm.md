@@ -50,11 +50,13 @@ Outcome and Impact
 By replacing PLC-based automation with an embedded, software-driven control architecture, we achieved reliable and repeatable chamfering performance at a fraction of the cost of commercial machines. The entire system was developed for under $1000, representing a smarter and more efficient solution customized for the specific rack gear use case.
 
 
+
+
 <div class="ui small rounded images uniform-project-images">
-  <img class="research-hero" src="{{ site.baseurl }}/images/slam2.jpeg" alt="">
-  <img class="ui image" src="{{ site.baseurl }}/images/R2.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/R3.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/Robocon2023.jpeg">
+  <img class="research-hero" src="{{ site.baseurl }}/images/p4.jpeg" alt="">
+  <img class="ui image" src="{{ site.baseurl }}/images/p3.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/p2.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/p1.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/R1.jpeg">
 </div>
 
