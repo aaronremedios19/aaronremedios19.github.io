@@ -6,7 +6,7 @@
     "email": "aaron.remedios25@gmail.com",
     "phone": "+1 765-543-8872",
     "website": "https://aaronremedios19.github.io/",
-    "interests":  "electronics", "football","guitar",
+    "Interests":  "electronics","football","guitar",
     "summary": "Electronics and Telecommunication Engineer with three years of experience designing, developing, and testing electromechanical systems. Skilled in robotics, automation, and PCB design, with cross-disciplinary expertise in electronics and mechanical engineering. Currently pursuing an MS in Robotics at Purdue University; earned a B.Tech from Mumbai University with an 8.6 CGPA. Expected graduation: Spring 2026.",
     "location": {
       "address": "",
@@ -14,14 +14,7 @@
       "city": "",
       "countryCode": "",
       "region": ""
-      "interests": [
-  "Multi-Agent SLAM and Mapping",
-  "Mobile Manipulation",
-  "Robotic Perception and Sensor Fusion",
-  "Embedded Systems for Robotics",
-  "Autonomous Systems and Control",
-  "Electromechanical System Design"
-]
+
     },
     "profiles": [
       {
