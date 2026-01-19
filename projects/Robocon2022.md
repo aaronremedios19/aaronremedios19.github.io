@@ -16,9 +16,9 @@ summary: Design and development of competition robots for ABU ROBOCON 2022.
 
 <div class="ui small rounded images uniform-project-images">
   <img class="ui image" src="{{ site.baseurl }}/images/R12022.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/Hook_2_pcb.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/Hool_3_Test_resized_resized.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/R2022.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/rb2022ac.JPG">
+  <img class="ui image" src="{{ site.baseurl }}/images/rbc2022ac1.JPG">
+  <img class="ui image" src="{{ site.baseurl }}/images/rbc2022ac3.JPG">
 </div>
 
 ## Overview
