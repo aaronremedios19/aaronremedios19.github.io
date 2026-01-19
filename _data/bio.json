@@ -29,12 +29,9 @@
   },
 
   "interests": [
-    { "name": "Multi-Agent SLAM and Mapping" },
-    { "name": "Mobile Manipulation" },
-    { "name": "Robotic Perception and Sensor Fusion" },
-    { "name": "Embedded Systems for Robotics" },
-    { "name": "Autonomous Systems and Control" },
-    { "name": "Electromechanical System Design" }
+    { "name": "Electronics" },
+    { "name": "Hardware Tinkering" },
+    { "name": "Soccer" },
   ],
 
   "education": [
