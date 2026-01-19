@@ -39,6 +39,8 @@ A bi-directional Wi-Fi–based RF communication system connected the rover to a 
 
 Beyond team leadership, my primary technical responsibility was the integration of the locomotion system with a 6-DOF robotic manipulator, ensuring coordinated motion between the mobile base and the arm. The manipulator was driven by high-torque (≈12 kg-cm) stepper motors, with the Raspberry Pi 5 acting as the central planner and coordinator, and an STM32 microcontroller handling real-time stepper driver control for precise joint actuation. This required designing reliable communication and control interfaces between high-level ROS motion commands and low-level motor drivers, managing timing, synchronization, and safety constraints.
 
+<img class="ui image" src="/images/isroc.jpg">
+
 
 
 
