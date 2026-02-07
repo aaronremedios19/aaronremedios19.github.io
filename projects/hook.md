@@ -29,18 +29,13 @@ summary: Electronics Subsystem & Access Control Development – Hook EV Systems
 
 
 
+While at Hook EV Systems, I was tasked with the design and implementation of the core embedded electronics for the EV bicycle conversion kit, focusing on compactness, connectivity, and secure access. The system enabled conventional bicycles to be converted into electric bicycles with real-time data connectivity and adaptive mode-based control.
 
-While at Hook EV Systems, I was tasked with the design and implementation of the core embedded electronics for the EV bicycle conversion kit, with a focus on compactness, connectivity, and secure access. The system’s purpose was to enable any conventional bicycle to be converted into an electric bicycle with real-time data connectivity and intuitive mode selection.
+I architected and developed a custom ESP32-based control PCB that formed the backbone of the conversion kit’s electronics. This controller interfaced with a custom 4-layer ESC, capturing motion feedback and managing BLDC motor activation. I implemented three riding modes—Assist, Stroll, and Sport—using a PPM-guided control strategy, and designed a PID-based adaptive control algorithm to dynamically adjust motor RPM. This ensured that the bicycle maintained the selected speed even on uphill or downhill terrain, improving ride consistency, adaptability, and overall user experience.
 
+To support secure vehicle interaction and kiosk infrastructure, I integrated a PN532 NFC/RFID module for tag-based authentication, enabling reliable access control at docking stations and service points. For kiosk location tracking and backend telemetry, I integrated a SIM808 GSM/GPRS/GPS module with an external antenna, providing real-time geographic coordinates with sub-3-meter accuracy to the backend system for operational monitoring and fleet management.
 
-I architected and developed a custom ESP32-based control PCB that formed the backbone of the conversion kit’s electronics. This controller interfaced with the custom 4-layer ESC to capture motion feedback and manage BLDC motor activation. I also implemented three distinct riding modes—Assist, Stroll, and Sport—using a PPM-guided control strategy where motor RPM changed dynamically based on mode selection, improving adaptability and rider experience.
-To support secure interaction with the vehicle and kiosk infrastructure, I integrated a PN532 NFC/RFID reader module for tag-based authentication, enabling user access control at docking stations and service points. The NFC solution was responsible for reliable tag detection and secure identity verification.
-For kiosk location tracking and backend telemetry, I integrated a SIM808 GSM/GPRS/GPS module with an external GPS antenna to provide real-time geographic coordinates to the backend system, enabling accurate kiosk positioning and operational monitoring. The SIM808 module supports quad-band GSM communication and integrated GNSS positioning with sub-3-meter accuracy, facilitating robust vehicle and kiosk tracking solutions.
-
-
-Battery management status was communicated to users and technicians via an onboard LED indicator, providing instantaneous visibility of system charge levels.
-While the overall conversion kit and kiosk ecosystem were collaborative efforts, my primary contributions were in embedded control PCB design, wireless integration for NFC access, and GPS-based kiosk tracking—all critical to the product’s operational and user experience features.
-
+Battery status was communicated to users and technicians via an onboard LED indicator, providing instantaneous visibility of charge levels. My primary contributions focused on embedded control PCB design, adaptive PID motor control, wireless integration for NFC access, and GPS-based kiosk tracking, all critical to the kit’s operational efficiency and user experience.
 
 
 
