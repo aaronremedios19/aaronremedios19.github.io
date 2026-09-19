@@ -1,13 +1,12 @@
 {
   "basics": {
     "name": "Aaron Remedios",
-    "label": "M.S. Robotics | Robotics • Embedded Systems • Controls",
+    "label": "M.S. Robotics | Robotics Engineer • Autonomous Systems • Controls",
     "picture": "/images/dp.jpeg",
     "email": "aaron.remedios25@gmail.com",
     "phone": "+1 765-543-8872",
     "website": "https://aaronremedios19.github.io/",
-    "summary": "MS in Robotics at Purdue University (Fall 2027) with four years of experience designing, developing, and testing electromechanical systems.
-Electronics and Telecommunication Engineer with expertise in robotics, automation, control systems, and PCB design, integrating electronics and mechanical systems into deployable solutions. Earned a B.Tech from University of Mumbai (CGPA: 8.5).Focused on embedded systems, autonomous robotics, and real-time control architectures.",
+    "summary": "Robotics Engineer (M.S. Robotics, Purdue University, Fall 2027) with four years of experience designing, developing, and testing robotic and electromechanical systems. Experienced across robot hardware, controls, and software integration — from embedded electronics and PCB design to ROS2-based autonomy, sensor fusion, and real-time control. Earned a B.Tech from University of Mumbai (CGPA: 8.5). Focused on autonomous robotics, intelligent systems, and real-time control architectures.",
     "location": {
       "address": "",
       "postalCode": "",
