@@ -7,7 +7,7 @@
     "phone": "+1 765-543-8872",
     "website": "https://aaronremedios19.github.io/",
     "summary": "MS in Robotics at Purdue University (Fall 2027) with four years of experience designing, developing, and testing electromechanical systems.
-Electronics and Telecommunication Engineer with expertise in robotics, automation, control systems, and PCB design, integrating electronics and mechanical systems into deployable solutions. Earned a B.Tech from University of Mumbai (CGPA: 8.6).Focused on embedded systems, autonomous robotics, and real-time control architectures.",
+Electronics and Telecommunication Engineer with expertise in robotics, automation, control systems, and PCB design, integrating electronics and mechanical systems into deployable solutions. Earned a B.Tech from University of Mumbai (CGPA: 8.5).Focused on embedded systems, autonomous robotics, and real-time control architectures.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,7 +32,7 @@ Electronics and Telecommunication Engineer with expertise in robotics, automatio
   "interests": [
     { "name": "Electronics" },
     { "name": "Hardware Tinkering" },
-    { "name": "Soccer" },
+    { "name": "Soccer" }
   ],
 
   "education": [
@@ -41,7 +41,7 @@ Electronics and Telecommunication Engineer with expertise in robotics, automatio
       "studyType": "M.S.",
       "area": "Robotics",
       "dates": "Aug 2025 – Present",
-      "gpa": "3.8/4.0 GPA",
+      "gpa": "3.9/4.0 GPA",
       "courses": []
     },
     {
@@ -49,12 +49,25 @@ Electronics and Telecommunication Engineer with expertise in robotics, automatio
       "studyType": "B.Tech",
       "area": "Electronics and Telecommunication Engineering (Honors in Data Science)",
       "dates": "2019 – 2023",
-      "gpa": "8.6/10 CGPA",
+      "gpa": "8.5/10 CGPA",
       "courses": []
     }
   ],
 
   "work": [
+    {
+      "company": "Canadian National Railways",
+      "position": "Drone Engineer Intern",
+      "dates": "May 2026 – Aug 2026",
+      "summary": "Worked on drone fleet management, autonomous rail-inspection data analysis, and ML-based predictive maintenance.",
+      "highlights": [
+        "Led the evaluation, selection, and implementation of fleet management software for 104 drones, gathering requirements and coordinating deployment with stakeholders and vendors.",
+        "Analyzed ATIP autonomous rail-inspection data to identify trends and opportunities to improve track-monitoring and inspection processes.",
+        "Processed and analyzed drone photogrammetry data using CloudCompare, working with 3D point clouds to evaluate captured infrastructure.",
+        "Earned FAA Part 107 Remote Pilot Certification, enabling compliant commercial UAS operations and safe flight planning.",
+        "Developed ML prediction models on ATIP data to detect deteriorating rail assets, including a Python/SQL algorithm using LiDAR cant and gauge measurements to automatically identify a batch of manufacturing-defective concrete rail ties."
+      ]
+    },
     {
       "company": "Avantrex Industries",
       "position": "Robotics Engineer",
@@ -104,6 +117,33 @@ Electronics and Telecommunication Engineer with expertise in robotics, automatio
 
   "projects": [
     {
+      "title": "Autonomous Drone Infrastructure Inspection Using Vision-Language-Action Models — Ideas Lab Student Researcher",
+      "dates": "Aug 2026 – Present",
+      "bullets": [
+        "Proposed a VLA-based autonomous inspection architecture combining visual perception, semantic reasoning, and robotic planning for infrastructure monitoring applications.",
+        "Explored AI-driven next-best-view planning and adaptive exploration strategies to improve inspection coverage and reduce manual flight operations.",
+        "Investigated language-conditioned next-best-view (NBV) planning for autonomous UAV exploration, allowing the system to select informative viewpoints based on inspection objectives."
+      ]
+    },
+    {
+      "title": "Multi-Agent SLAM: Combining Neural Implicit and Gaussian Scene Representations",
+      "dates": "Aug 2025 – Dec 2026",
+      "bullets": [
+        "Conducted a research study comparing neural implicit maps and explicit Gaussian scene representations for scalable multi-agent SLAM systems using MNE-SLAM and MAGiC-SLAM.",
+        "Developed an evaluation pipeline using Gaussian submaps as an explicit geometric backend to analyze loop closures, global map consistency, and multi-agent map optimization."
+      ]
+    },
+    {
+      "title": "StarkHacks — World's Largest Hackathon — 2nd Place",
+      "dates": "Apr 2025",
+      "bullets": [
+        "Integrated robotic hardware, sensors, and embedded controllers using ROS2, validating communication between navigation, manipulation, and perception subsystems.",
+        "Integrated a LeRobot robotic arm as an autonomous desk assistant, combining Vision-Language-Action (VLA) and Vision-Language Model (VLM) pipelines to perceive and identify clutter on the desk surface.",
+        "Trained the VLA pipeline to autonomously pick and clear trash from the desk, enabling closed-loop cleanup without manual intervention.",
+        "Implemented a voice-assistant interface for the arm, enabling hands-free spoken commands to trigger desk-tidying and other on-demand tasks."
+      ]
+    },
+    {
       "title": "Cosmo Logistic Theme (eYRC’23–24, IIT Bombay) — Rank 1",
       "dates": "Oct 2023 – Apr 2024",
       "bullets": [
@@ -137,19 +177,27 @@ Electronics and Telecommunication Engineer with expertise in robotics, automatio
   "skills": [
     {
       "name": "Programming",
-      "keywords": ["Embedded C", "C++", "Python", "MATLAB", "JavaScript"]
+      "keywords": ["C", "Embedded C", "C++", "Python", "MATLAB", "JavaScript", "Pandas", "MTconnect"]
+    },
+    {
+      "name": "Controls & Algorithms",
+      "keywords": ["PID", "MPC", "LQR", "RTOS", "A*", "BFS", "DFS", "Dijkstra", "RRT", "Kalman Filter (EKF, UKF)", "Sensor Fusion", "Path Planning"]
     },
     {
       "name": "Robotics",
-      "keywords": ["ROS2", "Nav2", "MoveIt2", "OpenCV", "SLAM", "Path Planning", "Sensor Fusion", "PID Control"]
+      "keywords": ["ROS2", "Nav2", "MoveIt2", "OpenCV", "SLAM"]
     },
     {
       "name": "Embedded / Hardware",
-      "keywords": ["ESP32", "STM32", "ARM", "Raspberry Pi", "PCB Design", "LiDAR", "IMU", "Cameras"]
+      "keywords": ["ESP32", "STM32", "ARM Microcontrollers", "Raspberry Pi 4/5", "TI MSP430", "Teensy", "PIC18", "PCB Design", "LiDAR", "IMU", "Cameras"]
     },
     {
-      "name": "Tools",
-      "keywords": ["Altium", "SolidWorks", "MATLAB/Simulink", "Linux", "Git/GitHub"]
+      "name": "Tools & Platforms",
+      "keywords": ["Altium", "Flux", "KiCad", "MATLAB/Simulink", "VS Code", "STMCube IDE", "SolidWorks", "ESP-IDF", "Arduino IDE", "Linux", "Git/GitHub"]
+    },
+    {
+      "name": "Test & Debug",
+      "keywords": ["Oscilloscope", "Digital Multimeter (DMM)", "Bench Power Supplies", "Logic Analyzer", "Root Cause Analysis"]
     }
   ],
 
