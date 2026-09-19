@@ -14,10 +14,25 @@ labels:
 summary: A sewer inspection and cleaning robot for clearing drainage systems.
 ---
 
-<div class="ui small rounded images uniform-project-images">
-  <img class="ui image" src="{{ site.baseurl }}/images/sewer1.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/sewer2_resized.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/sewer3_resized.jpeg">
+<style>
+.sewer-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 1.2em 0;
+}
+.sewer-gallery > img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+</style>
+<div class="sewer-gallery">
+  <img src="{{ site.baseurl }}/images/sewer1.jpeg">
+  <img src="{{ site.baseurl }}/images/sewer2_resized.jpeg">
+  <img src="{{ site.baseurl }}/images/sewer3_resized.jpeg">
 </div>
 
 While working at Aavantrex Industries Pvt. Ltd., I was involved in the development of a sewer-cleaning robotic system, where my responsibilities focused on electronics integration and control algorithms. This project marked a significant shift from my prior experience with electric motor control, as I was now working with hydraulic motors and fluid-based actuation systems. The robot used hydraulic motors driven through Janatics electro-hydraulic actuators, where motor speed and torque were controlled by regulating hydraulic flow via proportional hydraulic control valves. By varying valve opening, I was able to control the effective flow rate and, in turn, the RPM and motion profile of the hydraulic motors, requiring a different control mindset compared to voltage- or PWM-based electric motor control.
