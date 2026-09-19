@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+image: images/CN1.jpeg
 title: Drone Internship at Canadian National Railways
 permalink: /projects/cn-drone-internship
 date: 2026-05-01
@@ -13,6 +14,12 @@ labels:
   - Internship
 summary: Drone Engineer intern working on fleet management, autonomous rail-inspection data analysis, and ML-based maintenance prediction.
 ---
+
+<div class="ui small rounded images uniform-project-images">
+  <img class="ui image" src="{{ site.baseurl }}/images/CN1.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/CN2.jpeg">
+  <img class="ui image" src="{{ site.baseurl }}/images/CN3.jpg">
+</div>
 
 ## Overview
 
