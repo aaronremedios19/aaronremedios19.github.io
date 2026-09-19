@@ -65,7 +65,9 @@ Electronics and Telecommunication Engineer with expertise in robotics, automatio
         "Analyzed ATIP autonomous rail-inspection data to identify trends and opportunities to improve track-monitoring and inspection processes.",
         "Processed and analyzed drone photogrammetry data using CloudCompare, working with 3D point clouds to evaluate captured infrastructure.",
         "Earned FAA Part 107 Remote Pilot Certification, enabling compliant commercial UAS operations and safe flight planning.",
-        "Developed ML prediction models on ATIP data to detect deteriorating rail assets, including a Python/SQL algorithm using LiDAR cant and gauge measurements to automatically identify a batch of manufacturing-defective concrete rail ties."
+        "Developed ML prediction models using ATIP autonomous rail-inspection data to detect deteriorating rail assets and identify potential maintenance risks for proactive infrastructure monitoring.",
+        "Diagnosed a fleet-wide batch of manufacturing-defective concrete rail ties and built a Python/SQL pipeline to query LiDAR-derived cant and gauge measurements from CN's rail-inspection databases at scale, automatically flagging ties matching the defect signature.",
+        "Replaced a fully manual, ties-by-tie visual inspection process with this automated, data-driven detection method, enabling rapid and accurate identification of affected ties across the rail network."
       ]
     },
     {
