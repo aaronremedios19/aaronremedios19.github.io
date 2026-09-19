@@ -18,12 +18,27 @@ labels:
 summary: Drone Engineer intern who built a LiDAR-based algorithm to automatically detect defective concrete rail ties, alongside fleet management, rail-inspection analytics, and ML-based maintenance prediction.
 ---
 
-<div class="ui small rounded images uniform-project-images">
-  <img class="ui image" src="{{ site.baseurl }}/images/CN1.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/CN2.jpeg">
-  <img class="ui image" src="{{ site.baseurl }}/images/CN3.jpg">
-  <img class="ui image" src="{{ site.baseurl }}/images/CN4.jpg">
-  <img class="ui image" src="{{ site.baseurl }}/images/CN5.png">
+<style>
+.cn-drone-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 1.2em 0;
+}
+.cn-drone-gallery > img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+</style>
+<div class="cn-drone-gallery">
+  <img src="{{ site.baseurl }}/images/CN1.jpeg">
+  <img src="{{ site.baseurl }}/images/CN2.jpeg">
+  <img src="{{ site.baseurl }}/images/CN3.jpg">
+  <img src="{{ site.baseurl }}/images/CN4.jpg">
+  <img src="{{ site.baseurl }}/images/CN5.png">
 </div>
 
 ## Overview
