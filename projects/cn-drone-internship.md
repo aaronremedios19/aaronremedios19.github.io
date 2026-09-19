@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/CN1.jpeg
+image: images/CN4.jpg
 title: Drone Internship at Canadian National Railways
 permalink: /projects/cn-drone-internship
 date: 2026-05-01
