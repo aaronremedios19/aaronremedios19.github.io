@@ -22,6 +22,8 @@ summary: Drone Engineer intern who built a LiDAR-based algorithm to automaticall
   <img class="ui image" src="{{ site.baseurl }}/images/CN1.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/CN2.jpeg">
   <img class="ui image" src="{{ site.baseurl }}/images/CN3.jpg">
+  <img class="ui image" src="{{ site.baseurl }}/images/CN4.jpg">
+  <img class="ui image" src="{{ site.baseurl }}/images/CN5.png">
 </div>
 
 ## Overview
